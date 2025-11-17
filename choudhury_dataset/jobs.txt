@@ -1,0 +1,163 @@
+accountant, chartered
+administrator, education
+administrator, local government
+advertising account planner
+aeronautical engineer
+agricultural consultant
+airline pilot
+architect
+architectural technologist
+armed forces training and education officer
+associate professor
+barista
+barrister
+building surveyor
+buyer, industrial
+call centre manager
+careers information officer
+cartographer
+charity officer
+chartered legal executive (england and wales)
+chartered public finance accountant
+chemical engineer
+chief marketing officer
+chiropodist
+civil engineer, contracting
+civil service administrator
+civil service fast streamer
+clinical cytogeneticist
+clinical research associate
+clothing/textile technologist
+colour technologist
+commissioning editor
+community arts worker
+comptroller
+contractor
+counselling psychologist
+counsellor
+cytogeneticist
+dealer
+designer, exhibition/display
+development worker, international aid
+early years teacher
+economist
+editor, magazine features
+education administrator
+education officer, museum
+educational psychologist
+electronics engineer
+engineer, agricultural
+engineer, automotive
+engineer, biomedical
+engineer, building services
+engineer, civil (consulting)
+engineer, communications
+engineer, electronics
+engineer, maintenance
+engineer, petroleum
+engineer, production
+engineer, site
+exercise physiologist
+fine artist
+firefighter
+forensic psychologist
+freight forwarder
+further education lecturer
+futures trader
+geologist, engineering
+geoscientist
+glass blower/designer
+health physicist
+health service manager
+historic buildings inspector/conservation officer
+hotel manager
+human resources officer
+immigration officer
+industrial/product designer
+information officer
+information systems manager
+insurance broker
+intelligence analyst
+investment analyst
+investment banker, corporate
+it consultant
+journalist, newspaper
+land/geomatics surveyor
+landscape architect
+learning mentor
+lecturer, higher education
+licensed conveyancer
+local government officer
+location manager
+magazine features editor
+marketing executive
+materials engineer
+medical technical officer
+mental health nurse
+metallurgist
+museum education officer
+museum/gallery exhibitions officer
+music therapist
+musician
+nature conservation officer
+naval architect
+network engineer
+nurse, children's
+nurse, mental health
+occupational hygienist
+occupational psychologist
+osteopath
+petroleum engineer
+pharmacist, hospital
+physiotherapist
+pilot, airline
+planning and development surveyor
+podiatrist
+private music teacher
+product designer
+product/process development scientist
+production manager
+public house manager
+public librarian
+public relations account executive
+radio broadcast assistant
+radiographer, diagnostic
+research officer, political party
+research scientist (maths)
+research scientist (medical)
+research scientist (physical sciences)
+retail merchandiser
+sales executive
+sales professional, it
+science writer
+scientist, audiological
+scientist, marine
+scientist, physiological
+scientist, research (maths)
+set designer
+soil scientist
+solicitor, scotland
+special educational needs teacher
+surveyor, land/geomatics
+surveyor, minerals
+surveyor, mining
+systems analyst
+systems developer
+tax inspector
+teacher, adult education
+teacher, early years/pre
+teaching laboratory technician
+tefl teacher
+telecommunications researcher
+television floor manager
+television/film/video producer
+therapist, art
+therapist, horticultural
+therapist, music
+therapist, occupational
+tourist information centre manager
+town planner
+video editor
+water engineer
+web designer
+wellsite geologist

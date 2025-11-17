@@ -7,16 +7,23 @@ df = pd.read_csv("dataset2cleaned.csv", dtype=str)
 #     lambda x: x.strip('"').lower() if isinstance(x, str) else x
 # )
 
-# df.to_csv("dataset2cleaned.csv", index=False)
+# This was used to modify date format to be the same as shenoy's dataset
+df["trans_date_trans_time"] = pd.to_datetime(df["trans_date_trans_time"], format="%d-%m-%Y %H:%M", errors="coerce")
+df["trans_date_trans_time"] = df["trans_date_trans_time"].dt.strftime("%Y-%m-%d %H:%M:%S")
 
-categories = sorted(df["category"].unique())
-jobs = sorted(df["job"].unique())
+df["dob"] = pd.to_datetime(df["dob"], format="%d-%m-%Y", errors="coerce")
+df["dob"] = df["dob"].dt.strftime("%Y-%m-%d")
+df.to_csv("dataset2cleaned2.csv", index=False)
 
-with open("categories.txt", "w") as file:
-    for category in categories:
-        file.write(f"{category}\n")
+# Printing the unique categories and jobs just to compare with shenoy's dataset
+# categories = sorted(df["category"].unique())
+# jobs = sorted(df["job"].unique())
 
-with open("jobs.txt", "w") as file:
-    for job in jobs:
-        file.write(f"{job}\n")
+# with open("categories.txt", "w") as file:
+#     for category in categories:
+#         file.write(f"{category}\n")
+
+# with open("jobs.txt", "w") as file:
+#     for job in jobs:
+#         file.write(f"{job}\n")
 

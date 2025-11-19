@@ -1,4 +1,5 @@
 import os
+import gc
 import pandas as pd
 from imblearn.under_sampling import RandomUnderSampler, NearMiss
 from imblearn.over_sampling import RandomOverSampler, SMOTE, ADASYN
@@ -27,36 +28,43 @@ def getTrainingSample(resampling_method, X_train, Y_train):
         case "Random OverSample":
             sampler = RandomOverSampler(random_state=27)
             X_res, Y_res = sampler.fit_resample(X_train, Y_train)
+            del sampler
             return X_res, Y_res
 
         case "SMOTE":
-            sm = SMOTE(random_state=27)
-            X_res, y_res = sm.fit_resample(X_train, Y_train)
+            sampler = SMOTE(random_state=27)
+            X_res, y_res = sampler.fit_resample(X_train, Y_train)
+            del sampler
             return (X_res, y_res)
 
         case "ADASYN":
-            ad = ADASYN(random_state=27)
-            X_res, y_res = ad.fit_resample(X_train, Y_train)
+            sampler = ADASYN(random_state=27)
+            X_res, y_res = sampler.fit_resample(X_train, Y_train)
+            del sampler
             return (X_res, y_res)
 
         case "Random Undersample":
             sampler = RandomUnderSampler(random_state=27)
             X_res, Y_res = sampler.fit_resample(X_train, Y_train)
+            del sampler
             return X_res, Y_res
 
         case "NearMiss-1":
             sampler = NearMiss(version=1)
             X_res, Y_res = sampler.fit_resample(X_train, Y_train)
+            del sampler
             return X_res, Y_res
 
         case "NearMiss-2":
-            sampler = NearMiss(version=2)
+            sampler = NearMiss(version=2, n_jobs=1)
             X_res, Y_res = sampler.fit_resample(X_train, Y_train)
+            del sampler
             return X_res, Y_res
 
         case "NearMiss-3":
             sampler = NearMiss(version=3)
             X_res, Y_res = sampler.fit_resample(X_train, Y_train)
+            del sampler
             return X_res, Y_res
 
         case _:
@@ -99,6 +107,7 @@ def getResults(resampling_method, Y_test, Y_pred):
     disp.plot(cmap='Blues', values_format=".5f")
     plt.title(f"Normalized Confusion Matrix for {resampling_method}")
     plt.savefig(f"Confusion Matrix - {resampling_method}.png")
+    plt.clf()
     plt.close()
 
 if __name__ == "__main__":
@@ -129,7 +138,7 @@ if __name__ == "__main__":
         "ADASYN",
         "Random UnderSample",
         "NearMiss-1",
-        "NearMiss-2",
+        # "NearMiss-2",
         "NearMiss-3",
     ]
 
@@ -156,3 +165,16 @@ if __name__ == "__main__":
         getResults(resampling_method, Is_Fraud_test, Is_Fraud_pred)
 
         print()
+
+        # --- MEMORY CLEANUP ---
+        del Sampling_features_train
+        del Sampling_Is_Fraud_train
+        del model
+        del Is_Fraud_pred
+
+        # Clear all matplotlib figures & caches
+        plt.clf()
+        plt.close('all')
+
+        # Force Python + numpy + sklearn C-extensions to free memory
+        gc.collect()

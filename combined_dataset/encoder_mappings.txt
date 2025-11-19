@@ -1,0 +1,2316 @@
+Column: merchant
+----------------
+abbott-rogahn -> 0
+abbott-steube -> 1
+abbott-steuber -> 2
+abernathy and sons -> 3
+abshire plc -> 4
+adams, kovacek and kuhlman -> 5
+adams-barrows -> 6
+altenwerth, cartwright and koss -> 7
+altenwerth-kilback -> 8
+ankunding llc -> 9
+ankunding-carroll -> 10
+armstrong, walter and gottlieb -> 11
+auer llc -> 12
+auer-mosciski -> 13
+auer-west -> 14
+bahringer group -> 15
+bahringer, bergnaum and quitzon -> 16
+bahringer, osinski and block -> 17
+bahringer, schoen and corkery -> 18
+bahringer-larson -> 19
+bahringer-streich -> 20
+bailey-mo -> 21
+bailey-morar -> 22
+balistreri-nade -> 23
+balistreri-nader -> 24
+barrows plc -> 25
+bartoletti and sons -> 26
+bartoletti-wunsch -> 27
+barton inc -> 28
+barton llc -> 29
+bashirian group -> 30
+bauch-blan -> 31
+bauch-blanda -> 32
+bauch-rayno -> 33
+bauch-raynor -> 34
+baumbach lt -> 35
+baumbach ltd -> 36
+baumbach, feeney and mo -> 37
+baumbach, feeney and morar -> 38
+baumbach, hodkiewicz and walsh -> 39
+baumbach, strosin and nicolas -> 40
+bechtelar-rippin -> 41
+becker, harris and harvey -> 42
+bednar group -> 43
+bednar inc -> 44
+bednar plc -> 45
+beer-jast -> 46
+beier and sons -> 47
+beier llc -> 48
+beier-hyatt -> 49
+berge llc -> 50
+berge, kautzer and harris -> 51
+berge-hills -> 52
+berge-ullrich -> 53
+bernhard inc -> 54
+bernhard, grant and langworth -> 55
+bernhard-lesch -> 56
+bernier and sons -> 57
+bernier, streich and jewess -> 58
+bernier, volkman and hoege -> 59
+bernier, volkman and hoeger -> 60
+bins, balistreri and beatty -> 61
+bins-howell -> 62
+bins-rice -> 63
+bins-tillman -> 64
+block group -> 65
+block-hauck -> 66
+block-parisian -> 67
+bode-rempel -> 68
+bode-schuste -> 69
+bode-schuster -> 70
+boehm, block and jakubowski -> 71
+boehm, predovic and reinge -> 72
+boehm, predovic and reinger -> 73
+bogisich inc -> 74
+bogisich-homenick -> 75
+bogisich-weimann -> 76
+botsford and sons -> 77
+botsford lt -> 78
+botsford ltd -> 79
+botsford plc -> 80
+boyer plc -> 81
+boyer-haley -> 82
+boyer-reichert -> 83
+bradtke plc -> 84
+bradtke, torp and bahringe -> 85
+bradtke, torp and bahringer -> 86
+breitenberg llc -> 87
+breitenberg-hermiston -> 88
+brekke and sons -> 89
+brown inc -> 90
+brown plc -> 91
+brown, homenick and lesch -> 92
+brown-greenholt -> 93
+bruen-yost -> 94
+buckridge plc -> 95
+carroll plc -> 96
+cartwright plc -> 97
+cartwright-harris -> 98
+casper, hand and zul -> 99
+casper, hand and zulauf -> 100
+cassin-harvey -> 101
+champlin and sons -> 102
+champlin, rolfson and connelly -> 103
+champlin-caspe -> 104
+champlin-casper -> 105
+christiansen, goyette and schamberge -> 106
+christiansen, goyette and schamberger -> 107
+christiansen-gusikowski -> 108
+cole plc -> 109
+cole, hills and jewess -> 110
+collier inc -> 111
+collier llc -> 112
+connelly plc -> 113
+connelly, reichert and fritsch -> 114
+connelly-carte -> 115
+connelly-carter -> 116
+conroy lt -> 117
+conroy ltd -> 118
+conroy, balistreri and gorczany -> 119
+conroy-cruickshank -> 120
+conroy-em -> 121
+conroy-emard -> 122
+cormier llc -> 123
+cormier, stracke and thiel -> 124
+corwin-collins -> 125
+corwin-gorczany -> 126
+corwin-romague -> 127
+corwin-romaguera -> 128
+cremin, hamill and reichel -> 129
+crist, jakubowski and littel -> 130
+crona and sons -> 131
+cronin, kshlerin and webe -> 132
+cronin, kshlerin and weber -> 133
+crooks and sons -> 134
+cruickshank-mills -> 135
+cummerata-hilpert -> 136
+cummerata-jones -> 137
+cummings group -> 138
+cummings llc -> 139
+dach-bore -> 140
+dach-borer -> 141
+dach-nade -> 142
+dach-nader -> 143
+dare, casper and bartoletti -> 144
+dare, fritsch and zboncak -> 145
+dare-gibson -> 146
+dare-marvin -> 147
+daugherty llc -> 148
+daugherty, pouros and beahan -> 149
+daugherty-thompson -> 150
+deckow-dare -> 151
+deckow-o'conne -> 152
+deckow-o'conner -> 153
+denesik and sons -> 154
+denesik, powlowski and pouros -> 155
+dibbert and sons -> 156
+dibbert-green -> 157
+dicki lt -> 158
+dicki ltd -> 159
+dickinson lt -> 160
+dickinson ltd -> 161
+dickinson-rempel -> 162
+dietrich-fadel -> 163
+donnelly llc -> 164
+donnelly plc -> 165
+dooley inc -> 166
+dooley-thompson -> 167
+douglas, dubuque and mckenzie -> 168
+douglas, schneider and turne -> 169
+douglas, schneider and turner -> 170
+douglas-white -> 171
+doyle lt -> 172
+doyle ltd -> 173
+dubuque llc -> 174
+durgan, gislason and spence -> 175
+durgan, gislason and spencer -> 176
+durgan-aue -> 177
+durgan-auer -> 178
+ebert-daugherty -> 179
+effertz llc -> 180
+effertz, welch and schowalte -> 181
+effertz, welch and schowalter -> 182
+eichmann, bogan and rodriguez -> 183
+eichmann, hayes and treutel -> 184
+eichmann-kilback -> 185
+eichmann-russel -> 186
+emard inc -> 187
+emmerich-luettgen -> 188
+emmerich-r -> 189
+emmerich-rau -> 190
+erdman-durgan -> 191
+erdman-ebert -> 192
+erdman-kertzmann -> 193
+erdman-schaden -> 194
+ernser-feest -> 195
+ernser-lynch -> 196
+fadel inc -> 197
+fadel, mertz and rippin -> 198
+fadel-hilpert -> 199
+fahey inc -> 200
+feil, hilpert and koss -> 201
+feil-mo -> 202
+feil-morar -> 203
+ferry, lynch and kautze -> 204
+ferry, lynch and kautzer -> 205
+ferry, reichel and dubuque -> 206
+fisher inc -> 207
+fisher-schowalte -> 208
+fisher-schowalter -> 209
+flatley group -> 210
+flatley-durgan -> 211
+frami group -> 212
+friesen inc -> 213
+friesen lt -> 214
+friesen ltd -> 215
+friesen-d'amore -> 216
+friesen-ortiz -> 217
+friesen-stamm -> 218
+fritsch and sons -> 219
+fritsch llc -> 220
+funk group -> 221
+gaylord-powlowski -> 222
+gerhold llc -> 223
+gerlach inc -> 224
+gibson-deckow -> 225
+gislason group -> 226
+gleason and sons -> 227
+gleason-macejkovic -> 228
+goldner, kovacek and abbott -> 229
+goldner-lemke -> 230
+goodwin-nitzsche -> 231
+gottlieb group -> 232
+gottlieb, considine and schultz -> 233
+gottlieb-hansen -> 234
+goyette inc -> 235
+goyette, howell and collie -> 236
+goyette, howell and collier -> 237
+goyette-gerhol -> 238
+goyette-gerhold -> 239
+goyette-herzog -> 240
+graham and sons -> 241
+graham, hegmann and hammes -> 242
+greenfelder, bartoletti and davis -> 243
+greenholt lt -> 244
+greenholt ltd -> 245
+greenholt, jacobi and gleason -> 246
+greenholt, o'hara and balistreri -> 247
+grimes llc -> 248
+gulgowski llc -> 249
+gutmann lt -> 250
+gutmann ltd -> 251
+gutmann, mclaughlin and wiz -> 252
+gutmann, mclaughlin and wiza -> 253
+gutmann-upton -> 254
+haag-blan -> 255
+haag-blanda -> 256
+hackett group -> 257
+hackett-lueilwitz -> 258
+hagenes, hermann and stroman -> 259
+hagenes, kohler and hoppe -> 260
+hahn, bahringer and mclaughlin -> 261
+hahn, douglas and schowalte -> 262
+hahn, douglas and schowalter -> 263
+haley group -> 264
+haley, batz and aue -> 265
+haley, batz and auer -> 266
+haley, jewess and bechtel -> 267
+haley, jewess and bechtelar -> 268
+halvorson group -> 269
+hamill-d'amore -> 270
+hamill-daugherty -> 271
+hammes-beatty -> 272
+harber inc -> 273
+harris group -> 274
+harris inc -> 275
+harris, gusikowski and heaney -> 276
+hartmann, rowe and hermann -> 277
+hauck, dietrich and funk -> 278
+hayes, marquardt and dibbert -> 279
+heaney-marquardt -> 280
+heathcote llc -> 281
+heathcote, yost and kertzmann -> 282
+heidenreich plc -> 283
+heller plc -> 284
+heller, gutmann and zieme -> 285
+heller-abshire -> 286
+heller-langosh -> 287
+herman inc -> 288
+herman, treutel and dickens -> 289
+hermann and sons -> 290
+hermann-gaylo -> 291
+hermann-gaylord -> 292
+hermiston, pacocha and smith -> 293
+hermiston, russel and price -> 294
+herzog lt -> 295
+herzog ltd -> 296
+hettinger, mccullough and fay -> 297
+hickle group -> 298
+hills, hegmann and schaefe -> 299
+hills, hegmann and schaefer -> 300
+hills-boye -> 301
+hills-boyer -> 302
+hills-olson -> 303
+hills-witting -> 304
+hilpert-conroy -> 305
+hintz, bauch and smith -> 306
+hintz-bruen -> 307
+hirthe-beie -> 308
+hirthe-beier -> 309
+hodkiewicz, prohaska and paucek -> 310
+homenick llc -> 311
+hoppe, harris and bedn -> 312
+hoppe, harris and bednar -> 313
+hoppe-parisian -> 314
+howe lt -> 315
+howe ltd -> 316
+howe plc -> 317
+hudson-grady -> 318
+hudson-ratke -> 319
+huel lt -> 320
+huel ltd -> 321
+huel, hammes and witting -> 322
+huel-langworth -> 323
+huels-hahn -> 324
+huels-nolan -> 325
+hyatt, russel and gleichne -> 326
+hyatt, russel and gleichner -> 327
+hyatt-blick -> 328
+jacobi and sons -> 329
+jacobi inc -> 330
+jakubowski group -> 331
+jakubowski inc -> 332
+jaskolski-dibbert -> 333
+jaskolski-vandervort -> 334
+jast and sons -> 335
+jast lt -> 336
+jast ltd -> 337
+jast-mcdermott -> 338
+jenkins, hauck and friesen -> 339
+jerde-hermann -> 340
+jewess llc -> 341
+johns inc -> 342
+johns-hoege -> 343
+johns-hoeger -> 344
+johnson, runolfsdottir and maye -> 345
+johnson, runolfsdottir and mayer -> 346
+johnston, nikolaus and maggio -> 347
+johnston-caspe -> 348
+johnston-casper -> 349
+jones, sawayn and romague -> 350
+jones, sawayn and romaguera -> 351
+kassulke inc -> 352
+kassulke plc -> 353
+kautzer and sons -> 354
+keeling-crist -> 355
+kemmer-buckridge -> 356
+kemmer-reinge -> 357
+kemmer-reinger -> 358
+kerluke inc -> 359
+kerluke plc -> 360
+kerluke, considine and macejkovic -> 361
+kerluke, kertzmann and wiz -> 362
+kerluke, kertzmann and wiza -> 363
+kerluke-abshire -> 364
+kertzmann llc -> 365
+kessler group -> 366
+kessler inc -> 367
+kiehn inc -> 368
+kiehn-emmerich -> 369
+kihn inc -> 370
+kihn, abernathy and douglas -> 371
+kihn, brakus and goyette -> 372
+kihn-fritsch -> 373
+kihn-schuste -> 374
+kihn-schuster -> 375
+kilback and sons -> 376
+kilback group -> 377
+kilback llc -> 378
+kilback, nitzsche and leffle -> 379
+kilback, nitzsche and leffler -> 380
+kirlin and sons -> 381
+klein group -> 382
+kling inc -> 383
+kling, howe and schneide -> 384
+kling, howe and schneider -> 385
+kling-ernse -> 386
+kling-ernser -> 387
+kling-grant -> 388
+klocko llc -> 389
+klocko, runolfsdottir and breitenberg -> 390
+koelpin and sons -> 391
+koepp-parke -> 392
+koepp-parker -> 393
+koepp-witting -> 394
+kohler, lindgren and koelpin -> 395
+konopelski, schneider and hartmann -> 396
+koss and sons -> 397
+koss, hansen and lueilwitz -> 398
+koss, mclaughlin and maye -> 399
+koss, mclaughlin and mayer -> 400
+kovacek lt -> 401
+kovacek ltd -> 402
+kovacek, dibbert and ondrick -> 403
+kovacek, dibbert and ondricka -> 404
+kozey-boehm -> 405
+kozey-kuhlman -> 406
+kozey-mcdermott -> 407
+kris-kertzmann -> 408
+kris-padberg -> 409
+kris-weimann -> 410
+kub plc -> 411
+kub-heaney -> 412
+kuhic inc -> 413
+kuhic llc -> 414
+kuhic, bins and pfeffe -> 415
+kuhic, bins and pfeffer -> 416
+kuhn group -> 417
+kuhn llc -> 418
+kulas group -> 419
+kunde-sanfo -> 420
+kunde-sanford -> 421
+kunze inc -> 422
+kunze, larkin and mayert -> 423
+kuphal-bartoletti -> 424
+kuphal-predovic -> 425
+kuphal-toy -> 426
+kutch and sons -> 427
+kutch group -> 428
+kutch llc -> 429
+kutch, hermiston and farrell -> 430
+kutch, steuber and gerhol -> 431
+kutch, steuber and gerhold -> 432
+kutch-ferry -> 433
+kutch-hegmann -> 434
+kutch-wilderman -> 435
+kuvalis lt -> 436
+kuvalis ltd -> 437
+labadie llc -> 438
+labadie, treutel and bode -> 439
+lakin, ferry and beatty -> 440
+lang, towne and schuppe -> 441
+langosh, wintheiser and hyatt -> 442
+langworth llc -> 443
+langworth, boehm and gulgowski -> 444
+larkin lt -> 445
+larkin ltd -> 446
+larkin, stracke and greenfelde -> 447
+larkin, stracke and greenfelder -> 448
+larson, quitzon and spence -> 449
+larson, quitzon and spencer -> 450
+larson-moen -> 451
+leannon-nikolaus -> 452
+leannon-w -> 453
+leannon-ward -> 454
+lebsack and sons -> 455
+ledner, hartmann and feest -> 456
+ledner-pfannerstill -> 457
+leffler-goldne -> 458
+leffler-goldner -> 459
+lehner, mosciski and king -> 460
+lehner, reichert and mills -> 461
+lemke and sons -> 462
+lemke-gutmann -> 463
+lesch lt -> 464
+lesch ltd -> 465
+lesch, d'amore and brown -> 466
+lind, huel and mcclure -> 467
+lind-buckridge -> 468
+little lt -> 469
+little ltd -> 470
+little, gutmann and lynch -> 471
+little-gleichne -> 472
+little-gleichner -> 473
+lockman lt -> 474
+lockman ltd -> 475
+lockman, west and runte -> 476
+lowe, dietrich and erdman -> 477
+lubowitz, terry and stracke -> 478
+lubowitz-walte -> 479
+lubowitz-walter -> 480
+luettgen plc -> 481
+lynch lt -> 482
+lynch ltd -> 483
+lynch-moh -> 484
+lynch-mohr -> 485
+lynch-wisozk -> 486
+macejkovic-lesch -> 487
+maggio-fahey -> 488
+mante group -> 489
+mante, luettgen and hackett -> 490
+marks inc -> 491
+marvin-lin -> 492
+marvin-lind -> 493
+mayert group -> 494
+mccullough group -> 495
+mccullough llc -> 496
+mccullough, hudson and schuste -> 497
+mccullough, hudson and schuster -> 498
+mcdermott, osinski and mo -> 499
+mcdermott, osinski and morar -> 500
+mcdermott-rice -> 501
+mcdermott-weimann -> 502
+mcglynn-heathcote -> 503
+mcglynn-jaskolski -> 504
+mckenzie-huels -> 505
+mclaughlin, armstrong and koepp -> 506
+medhurst inc -> 507
+medhurst plc -> 508
+medhurst, cartwright and ebert -> 509
+medhurst, labadie and gottlieb -> 510
+metz, russel and metz -> 511
+metz-boehm -> 512
+miller-harris -> 513
+miller-hauck -> 514
+moen, reinger and murphy -> 515
+mohr inc -> 516
+mohr-baye -> 517
+mohr-bayer -> 518
+monahan, bogisich and ledne -> 519
+monahan, bogisich and ledner -> 520
+monahan, hermann and johns -> 521
+monahan-mo -> 522
+monahan-morar -> 523
+moore, dibbert and koepp -> 524
+moore, williamson and emmerich -> 525
+morar inc -> 526
+morissette llc -> 527
+morissette plc -> 528
+morissette, weber and wiegan -> 529
+morissette, weber and wiegand -> 530
+morissette-schaefe -> 531
+morissette-schaefer -> 532
+mosciski group -> 533
+mosciski, gislason and mertz -> 534
+mosciski, ziemann and farrell -> 535
+mraz-herzog -> 536
+mueller, gerhold and muelle -> 537
+mueller, gerhold and mueller -> 538
+murray lt -> 539
+murray ltd -> 540
+murray-smitham -> 541
+nader-helle -> 542
+nader-heller -> 543
+nader-maggio -> 544
+nicolas, hills and mcglynn -> 545
+nienow plc -> 546
+nienow, ankunding and collie -> 547
+nienow, ankunding and collier -> 548
+nienow, barrows and romague -> 549
+nienow, barrows and romaguera -> 550
+nitzsche, kessler and wol -> 551
+nitzsche, kessler and wolff -> 552
+nolan-williamson -> 553
+o'connell, botsford and han -> 554
+o'connell, botsford and hand -> 555
+o'connell-ullrich -> 556
+o'hara-wilderman -> 557
+o'keefe-hudson -> 558
+o'keefe-wisoky -> 559
+o'reilly, mohr and purdy -> 560
+okuneva, schneider and r -> 561
+okuneva, schneider and rau -> 562
+olson, becker and koch -> 563
+ortiz group -> 564
+osinski inc -> 565
+osinski, ledner and leuschke -> 566
+pacocha-bauch -> 567
+pacocha-o'reilly -> 568
+pacocha-weissnat -> 569
+padberg-rogahn -> 570
+padberg-saue -> 571
+padberg-sauer -> 572
+padberg-welch -> 573
+pagac llc -> 574
+parisian and sons -> 575
+parisian, schiller and altenwerth -> 576
+parker, nolan and trantow -> 577
+parker-kunde -> 578
+paucek-wiz -> 579
+paucek-wiza -> 580
+pfeffer and sons -> 581
+pfeffer llc -> 582
+pollich llc -> 583
+pouros, walker and spence -> 584
+pouros, walker and spencer -> 585
+pouros-conroy -> 586
+pouros-haag -> 587
+powlowski-weimann -> 588
+predovic inc -> 589
+price inc -> 590
+prohaska-murray -> 591
+prosacco llc -> 592
+prosacco, kreiger and kovacek -> 593
+quitzon, green and bashirian -> 594
+quitzon-goyette -> 595
+ratke and sons -> 596
+rau and sons -> 597
+rau-grant -> 598
+rau-robel -> 599
+raynor, feest and mille -> 600
+raynor, feest and miller -> 601
+raynor, reinger and hagenes -> 602
+reichel inc -> 603
+reichel llc -> 604
+reichel, bradtke and blan -> 605
+reichel, bradtke and blanda -> 606
+reichert, huels and hoppe -> 607
+reichert, rowe and mraz -> 608
+reichert, shanahan and hayes -> 609
+reichert-weissnat -> 610
+reilly and sons -> 611
+reilly llc -> 612
+reilly, heaney and cole -> 613
+reinger, weissnat and strosin -> 614
+rempel inc -> 615
+rempel plc -> 616
+renner lt -> 617
+renner ltd -> 618
+reynolds-schinne -> 619
+reynolds-schinner -> 620
+rippin, kub and mann -> 621
+rippin-vonrueden -> 622
+ritchie, bradtke and stiedemann -> 623
+ritchie, oberbrunner and cremin -> 624
+robel, cummerata and prosacco -> 625
+roberts, daniel and macejkovic -> 626
+roberts, ryan and smith -> 627
+roberts-beahan -> 628
+rodriguez group -> 629
+rodriguez, yost and jenkins -> 630
+rohan, white and aufderh -> 631
+rohan, white and aufderhar -> 632
+rolfson-kunde -> 633
+romaguera and sons -> 634
+romaguera lt -> 635
+romaguera ltd -> 636
+romaguera, cruickshank and greenholt -> 637
+romaguera, wehner and tromp -> 638
+roob llc -> 639
+roob, conn and tremblay -> 640
+roob-okunev -> 641
+roob-okuneva -> 642
+rowe, batz and goodwin -> 643
+rowe-vandervort -> 644
+ruecker group -> 645
+ruecker, beer and collie -> 646
+ruecker, beer and collier -> 647
+ruecker-mayert -> 648
+runolfsdottir, mueller and han -> 649
+runolfsdottir, mueller and hand -> 650
+runolfsson and sons -> 651
+runte, green and em -> 652
+runte, green and emard -> 653
+runte-moh -> 654
+runte-mohr -> 655
+rutherford, homenick and bergstrom -> 656
+rutherford-mertz -> 657
+satterfield-lowe -> 658
+sawayn plc -> 659
+schaefer lt -> 660
+schaefer ltd -> 661
+schaefer, fay and hilll -> 662
+schaefer, maggio and daugherty -> 663
+schaefer, mcglynn and bosco -> 664
+schamberger-o'keefe -> 665
+schiller lt -> 666
+schiller ltd -> 667
+schiller, blanda and johnson -> 668
+schimmel-olson -> 669
+schmeler inc -> 670
+schmeler, bashirian and price -> 671
+schmeler-howe -> 672
+schmidt and sons -> 673
+schmidt-larkin -> 674
+schmitt inc -> 675
+schmitt lt -> 676
+schmitt ltd -> 677
+schneider, hayes and nikolaus -> 678
+schoen lt -> 679
+schoen ltd -> 680
+schoen, kuphal and nitzsche -> 681
+schoen, nienow and bauch -> 682
+schoen-quigley -> 683
+schroeder group -> 684
+schroeder, hauck and treutel -> 685
+schroeder, wolff and hermiston -> 686
+schulist lt -> 687
+schulist ltd -> 688
+schultz, simonis and little -> 689
+schumm plc -> 690
+schumm, bauch and ondrick -> 691
+schumm, bauch and ondricka -> 692
+schumm, mclaughlin and carte -> 693
+schumm, mclaughlin and carter -> 694
+schuppe llc -> 695
+schuppe, nolan and hoege -> 696
+schuppe, nolan and hoeger -> 697
+schuppe-schuppe -> 698
+shanahan-lehne -> 699
+shanahan-lehner -> 700
+shields inc -> 701
+shields-wunsch -> 702
+simonis-prohask -> 703
+simonis-prohaska -> 704
+skiles llc -> 705
+skiles-ankunding -> 706
+smith-stokes -> 707
+smitham-boehm -> 708
+smitham-schille -> 709
+smitham-schiller -> 710
+spencer plc -> 711
+spencer-runolfsson -> 712
+spinka inc -> 713
+spinka-welch -> 714
+sporer inc -> 715
+sporer-keeble -> 716
+sporer-keebler -> 717
+stamm-rodriguez -> 718
+stamm-witting -> 719
+stanton, jakubowski and baumbach -> 720
+stark-batz -> 721
+stark-koss -> 722
+stehr, jewess and schimmel -> 723
+stiedemann inc -> 724
+stiedemann lt -> 725
+stiedemann ltd -> 726
+stokes, christiansen and sipes -> 727
+stoltenberg-beatty -> 728
+stracke-lemke -> 729
+streich lt -> 730
+streich ltd -> 731
+streich, dietrich and barton -> 732
+streich, hansen and veum -> 733
+streich, rolfson and wilderman -> 734
+stroman, hudson and erdman -> 735
+strosin-cruickshank -> 736
+swaniawski, bahringer and ledne -> 737
+swaniawski, bahringer and ledner -> 738
+swaniawski, lowe and robel -> 739
+swaniawski, nitzsche and welch -> 740
+swift plc -> 741
+swift, bradtke and marquardt -> 742
+terry lt -> 743
+terry ltd -> 744
+terry, johns and bins -> 745
+terry-huel -> 746
+thiel lt -> 747
+thiel ltd -> 748
+thiel plc -> 749
+thiel-thiel -> 750
+thompson-gleason -> 751
+tillman llc -> 752
+tillman, dickinson and labadie -> 753
+tillman, fritsch and schmitt -> 754
+torp, muller and bore -> 755
+torp, muller and borer -> 756
+torp-labadie -> 757
+torp-lemke -> 758
+torphy-goyette -> 759
+torphy-kertzmann -> 760
+towne llc -> 761
+towne, greenholt and koepp -> 762
+towne, walker and bore -> 763
+towne, walker and borer -> 764
+trantow plc -> 765
+treutel-king -> 766
+tromp group -> 767
+tromp, kerluke and glove -> 768
+tromp, kerluke and glover -> 769
+turcotte, batz and buckridge -> 770
+turcotte, mckenzie and koss -> 771
+turcotte-halvorson -> 772
+turner and sons -> 773
+turner llc -> 774
+turner, ruecker and parisian -> 775
+turner, ziemann and lehne -> 776
+turner, ziemann and lehner -> 777
+ullrich lt -> 778
+ullrich ltd -> 779
+upton plc -> 780
+vandervort-funk -> 781
+veum-koelpin -> 782
+volkman lt -> 783
+volkman ltd -> 784
+volkman plc -> 785
+volkman-predovic -> 786
+vonrueden group -> 787
+waelchi inc -> 788
+waelchi-wol -> 789
+waelchi-wolf -> 790
+walter, hettinger and kessle -> 791
+walter, hettinger and kessler -> 792
+waters-cruickshank -> 793
+watsica llc -> 794
+watsica, haag and considine -> 795
+weber and sons -> 796
+weber, thiel and hammes -> 797
+weimann, kuhic and beahan -> 798
+weimann-lockman -> 799
+welch inc -> 800
+welch, rath and koepp -> 801
+white and sons -> 802
+wiegand-lowe -> 803
+wilkinson llc -> 804
+wilkinson lt -> 805
+wilkinson ltd -> 806
+wilkinson plc -> 807
+will lt -> 808
+will ltd -> 809
+williamson llc -> 810
+willms, kris and bergnaum -> 811
+windler llc -> 812
+windler, goodwin and kovacek -> 813
+wintheiser, dietrich and schimmel -> 814
+wisozk and sons -> 815
+witting, beer and ernse -> 816
+witting, beer and ernser -> 817
+wiza llc -> 818
+wiza, schaden and stark -> 819
+wolf inc -> 820
+wuckert, wintheiser and friesen -> 821
+wuckert-goldne -> 822
+wuckert-goldner -> 823
+wuckert-walte -> 824
+wuckert-walter -> 825
+yost, block and koepp -> 826
+yost, schamberger and windle -> 827
+yost, schamberger and windler -> 828
+yost-rogahn -> 829
+zboncak llc -> 830
+zboncak lt -> 831
+zboncak ltd -> 832
+zboncak, rowe and murazik -> 833
+zemlak group -> 834
+zemlak, tillman and cremin -> 835
+ziemann-waters -> 836
+zieme, bode and dooley -> 837
+zulauf llc -> 838
+
+Column: category
+----------------
+entertainment -> 0
+food_dining -> 1
+gas_transport -> 2
+grocery_net -> 3
+grocery_pos -> 4
+health_fitness -> 5
+home -> 6
+kids_pets -> 7
+misc_net -> 8
+misc_pos -> 9
+personal_care -> 10
+shopping_net -> 11
+shopping_pos -> 12
+travel -> 13
+
+Column: city
+------------
+achille -> 0
+acworth -> 1
+adams -> 2
+afton -> 3
+akron -> 4
+albany -> 5
+albuquerque -> 6
+alder -> 7
+aledo -> 8
+alexandria -> 9
+allenhurst -> 10
+allentown -> 11
+alpharetta -> 12
+altair -> 13
+alton -> 14
+altona -> 15
+altonah -> 16
+alva -> 17
+amanda -> 18
+american fork -> 19
+amorita -> 20
+amsterdam -> 21
+andrews -> 22
+angwin -> 23
+annapolis -> 24
+apison -> 25
+arcadia -> 26
+arlington -> 27
+armagh -> 28
+armonk -> 29
+arnold -> 30
+arvada -> 31
+ash flat -> 32
+ashfield -> 33
+ashford -> 34
+ashland -> 35
+atglen -> 36
+athena -> 37
+atlantic -> 38
+auburn -> 39
+aurora -> 40
+avera -> 41
+avoca -> 42
+azusa -> 43
+bagley -> 44
+bailey -> 45
+ballwin -> 46
+barnard -> 47
+barneveld -> 48
+barnstable -> 49
+baroda -> 50
+basye -> 51
+baton rouge -> 52
+battle creek -> 53
+bauxite -> 54
+bay city -> 55
+bay minette -> 56
+beacon -> 57
+beasley -> 58
+beaver falls -> 59
+beaverdam -> 60
+belfast -> 61
+belgrade -> 62
+belle fourche -> 63
+bellmore -> 64
+belmond -> 65
+belmont -> 66
+benton -> 67
+bessemer -> 68
+bethel -> 69
+bethel springs -> 70
+big creek -> 71
+big indian -> 72
+bigelow -> 73
+birmingham -> 74
+blackville -> 75
+blairsden-graeagle -> 76
+blairstown -> 77
+blooming grove -> 78
+bolivar -> 79
+bolton -> 80
+bonfield -> 81
+bonita springs -> 82
+boonton -> 83
+boulder -> 84
+bowdoin -> 85
+bowersville -> 86
+boyd -> 87
+bradley -> 88
+brainard -> 89
+brandon -> 90
+brantley -> 91
+brashear -> 92
+breesport -> 93
+bridgeport -> 94
+bridger -> 95
+brinson -> 96
+bristol -> 97
+bristow -> 98
+bronx -> 99
+brookfield -> 100
+brooklin -> 101
+brooklyn -> 102
+broomfield -> 103
+browning -> 104
+brownville -> 105
+bruce -> 106
+brunson -> 107
+bryant -> 108
+buellton -> 109
+burbank -> 110
+burke -> 111
+burlington -> 112
+burns flat -> 113
+burrton -> 114
+byesville -> 115
+bynum -> 116
+cadiz -> 117
+camden -> 118
+campbell -> 119
+canton -> 120
+cape coral -> 121
+cardwell -> 122
+carlisle -> 123
+carlotta -> 124
+carroll -> 125
+cascade locks -> 126
+cass -> 127
+cassatt -> 128
+catawba -> 129
+cazenovia -> 130
+cecilton -> 131
+cedar -> 132
+center point -> 133
+center tuftonboro -> 134
+centerview -> 135
+central -> 136
+chatham -> 137
+chattanooga -> 138
+cherokee village -> 139
+chester -> 140
+chester heights -> 141
+christine -> 142
+churubusco -> 143
+cisco -> 144
+claremont -> 145
+clarinda -> 146
+clarion -> 147
+clarks mills -> 148
+clarksville -> 149
+clay center -> 150
+claypool -> 151
+clayton -> 152
+clearwater -> 153
+cleveland -> 154
+clifton -> 155
+clinton -> 156
+clune -> 157
+clutier -> 158
+cochranton -> 159
+coffeeville -> 160
+cokeburg -> 161
+coleharbor -> 162
+coleman -> 163
+collegeville -> 164
+collettsville -> 165
+colorado springs -> 166
+colton -> 167
+columbia -> 168
+comfort -> 169
+comfrey -> 170
+conway -> 171
+cord -> 172
+corona -> 173
+corriganville -> 174
+corsica -> 175
+cottekill -> 176
+coulee dam -> 177
+cowlesville -> 178
+coyle -> 179
+craig -> 180
+cranks -> 181
+creedmoor -> 182
+creola -> 183
+cressona -> 184
+cromona -> 185
+cross -> 186
+cross plains -> 187
+crouse -> 188
+crownpoint -> 189
+curlew -> 190
+cuthbert -> 191
+cuyahoga falls -> 192
+dadeville -> 193
+dallas -> 194
+dalton -> 195
+daly city -> 196
+damascus -> 197
+daniels -> 198
+darien -> 199
+dayton -> 200
+de lancey -> 201
+de queen -> 202
+de soto -> 203
+de witt -> 204
+deadwood -> 205
+deane -> 206
+delhi -> 207
+dell city -> 208
+deltona -> 209
+denham springs -> 210
+des moines -> 211
+desdemona -> 212
+detroit -> 213
+dexter -> 214
+diamond -> 215
+dieterich -> 216
+doe hill -> 217
+dongola -> 218
+downey -> 219
+downsville -> 220
+drakes branch -> 221
+dresden -> 222
+du pont -> 223
+dublin -> 224
+dubre -> 225
+dumont -> 226
+duncan -> 227
+dunlevy -> 228
+eagarville -> 229
+early -> 230
+east andover -> 231
+east canaan -> 232
+east china -> 233
+east rochester -> 234
+east troy -> 235
+easton -> 236
+edinburg -> 237
+edisto island -> 238
+edmond -> 239
+egan -> 240
+ehrhardt -> 241
+el paso -> 242
+elberta -> 243
+eldridge -> 244
+elizabeth -> 245
+elizabethtown -> 246
+elk rapids -> 247
+elkhart -> 248
+emmons -> 249
+emporium -> 250
+enola -> 251
+esbon -> 252
+espanola -> 253
+etlan -> 254
+eugene -> 255
+eureka -> 256
+fairhope -> 257
+fairview -> 258
+falconer -> 259
+falls church -> 260
+falls city -> 261
+falmouth -> 262
+farmington -> 263
+fayetteville -> 264
+fenelton -> 265
+ferney -> 266
+fiddletown -> 267
+fields landing -> 268
+florence -> 269
+ford -> 270
+fordoche -> 271
+fort myers -> 272
+fort washakie -> 273
+freedom -> 274
+freeport -> 275
+fullerton -> 276
+fulton -> 277
+gadsden -> 278
+gaines -> 279
+gainesville -> 280
+gaithersburg -> 281
+galatia -> 282
+gardiner -> 283
+garfield -> 284
+garrattsville -> 285
+georgetown -> 286
+gibsonville -> 287
+girard -> 288
+glade spring -> 289
+glen rock -> 290
+glendale -> 291
+goodrich -> 292
+goreville -> 293
+granbury -> 294
+grand bay -> 295
+grand junction -> 296
+grand ridge -> 297
+grandview -> 298
+graniteville -> 299
+grant -> 300
+grantham -> 301
+grassflat -> 302
+great mills -> 303
+greenbush -> 304
+greendale -> 305
+greenport -> 306
+greenview -> 307
+greenville -> 308
+greenwich -> 309
+greenwood -> 310
+gregory -> 311
+grenada -> 312
+grenola -> 313
+gretna -> 314
+grimesland -> 315
+grover -> 316
+hahira -> 317
+haines city -> 318
+halma -> 319
+halstad -> 320
+hampton -> 321
+hancock -> 322
+hannawa falls -> 323
+harborcreek -> 324
+harmony -> 325
+harper -> 326
+harrington park -> 327
+harrodsburg -> 328
+hartford -> 329
+harwood -> 330
+hatch -> 331
+haw river -> 332
+hawley -> 333
+hawthorne -> 334
+haynes -> 335
+hazel -> 336
+heart butte -> 337
+hedley -> 338
+hedrick -> 339
+heidelberg -> 340
+heiskell -> 341
+heislerville -> 342
+helm -> 343
+henderson -> 344
+hewitt -> 345
+higganum -> 346
+high rolls mountain park -> 347
+highland -> 348
+hills -> 349
+hinckley -> 350
+hinesburg -> 351
+holcomb -> 352
+holliday -> 353
+holloway -> 354
+holstein -> 355
+honokaa -> 356
+hooper -> 357
+hopewell -> 358
+hopkins -> 359
+houston -> 360
+hovland -> 361
+howells -> 362
+howes cave -> 363
+hubbell -> 364
+hudson -> 365
+humble -> 366
+humboldt -> 367
+huntington beach -> 368
+huntsville -> 369
+hurley -> 370
+hurricane -> 371
+huslia -> 372
+iliff -> 373
+independence -> 374
+indian wells -> 375
+indianapolis -> 376
+ironton -> 377
+irvine -> 378
+irvington -> 379
+irwinton -> 380
+isanti -> 381
+iselin -> 382
+issaquah -> 383
+jackson -> 384
+jaffrey -> 385
+jay -> 386
+jefferson -> 387
+jelm -> 388
+jermyn -> 389
+johns island -> 390
+joliet -> 391
+jones -> 392
+jordan valley -> 393
+jordanville -> 394
+juliette -> 395
+june lake -> 396
+kaktovik -> 397
+kansas city -> 398
+karnack -> 399
+karns city -> 400
+keisterville -> 401
+keller -> 402
+kenner -> 403
+kensington -> 404
+kent -> 405
+key west -> 406
+kilgore -> 407
+kings bay -> 408
+kingsford heights -> 409
+kingsport -> 410
+kingsville -> 411
+kirby -> 412
+kirk -> 413
+kirtland -> 414
+kirtland afb -> 415
+kissee mills -> 416
+kittery point -> 417
+knowlesville -> 418
+knoxville -> 419
+la grande -> 420
+lagrange -> 421
+laguna hills -> 422
+lahoma -> 423
+lake jackson -> 424
+lake oswego -> 425
+lakeland -> 426
+lakeport -> 427
+lakeview -> 428
+lamberton -> 429
+lamy -> 430
+lanark village -> 431
+lane -> 432
+laramie -> 433
+laredo -> 434
+las vegas -> 435
+lawn -> 436
+lawrence -> 437
+lebanon -> 438
+leetsdale -> 439
+leo -> 440
+leonard -> 441
+lepanto -> 442
+liberty mills -> 443
+lima -> 444
+linthicum heights -> 445
+lithopolis -> 446
+littleton -> 447
+livonia -> 448
+llano -> 449
+loami -> 450
+lockhart -> 451
+logan -> 452
+lohrville -> 453
+lolita -> 454
+lomax -> 455
+lonetree -> 456
+lonsdale -> 457
+lorenzo -> 458
+los angeles -> 459
+louisiana -> 460
+louisville -> 461
+loving -> 462
+lowell -> 463
+lowville -> 464
+loxahatchee -> 465
+lubbock -> 466
+luray -> 467
+luzerne -> 468
+madisonville -> 469
+malad city -> 470
+mallie -> 471
+manchester -> 472
+manderson -> 473
+manistique -> 474
+manley -> 475
+manor -> 476
+manquin -> 477
+mansfield -> 478
+manville -> 479
+marathon -> 480
+margaretville -> 481
+maria stein -> 482
+marienville -> 483
+marietta -> 484
+marion -> 485
+marshall -> 486
+matawan -> 487
+matthews -> 488
+may -> 489
+mayersville -> 490
+maysville -> 491
+mc clellandtown -> 492
+mc cracken -> 493
+mc intosh -> 494
+mc nabb -> 495
+mc veytown -> 496
+meadville -> 497
+medford -> 498
+melbourne -> 499
+melville -> 500
+mendon -> 501
+meredith -> 502
+meridian -> 503
+mesa -> 504
+metairie -> 505
+methuen -> 506
+miamisburg -> 507
+michigan -> 508
+mifflin -> 509
+milford -> 510
+mill creek -> 511
+milner -> 512
+milwaukee -> 513
+mineral -> 514
+minneapolis -> 515
+minnesota lake -> 516
+moab -> 517
+mobile -> 518
+monetta -> 519
+monitor -> 520
+monmouth beach -> 521
+montandon -> 522
+montgomery -> 523
+montrose -> 524
+moores hill -> 525
+mooresville -> 526
+moorhead -> 527
+moravian falls -> 528
+moriarty -> 529
+moriches -> 530
+moro -> 531
+morrisdale -> 532
+morven -> 533
+moscow -> 534
+moss point -> 535
+moulton -> 536
+mound city -> 537
+mounds -> 538
+moundsville -> 539
+mount clemens -> 540
+mount hope -> 541
+mount morris -> 542
+mount perry -> 543
+mount saint joseph -> 544
+mount vernon -> 545
+mountain center -> 546
+mountain city -> 547
+mountain park -> 548
+mulberry grove -> 549
+munith -> 550
+murfreesboro -> 551
+murrayville -> 552
+muskegon -> 553
+nanuet -> 554
+napa -> 555
+naples -> 556
+nazareth -> 557
+nelson -> 558
+new boston -> 559
+new ellenton -> 560
+new franken -> 561
+new goshen -> 562
+new holstein -> 563
+new memphis -> 564
+new waverly -> 565
+new york city -> 566
+newark valley -> 567
+newberg -> 568
+newhall -> 569
+newport -> 570
+newton -> 571
+nicholson -> 572
+nobleboro -> 573
+noblesville -> 574
+nokomis -> 575
+noonan -> 576
+norfolk -> 577
+norman -> 578
+norman park -> 579
+north augusta -> 580
+north brookfield -> 581
+north east -> 582
+north haverhill -> 583
+north judson -> 584
+north las vegas -> 585
+north loup -> 586
+north prairie -> 587
+north tonawanda -> 588
+north washington -> 589
+north wilkesboro -> 590
+northport -> 591
+norwalk -> 592
+norwich -> 593
+notrees -> 594
+o brien -> 595
+oak hill -> 596
+oakdale -> 597
+oakford -> 598
+oakland -> 599
+oaks -> 600
+oakton -> 601
+oconto falls -> 602
+odessa -> 603
+ogdensburg -> 604
+oklahoma city -> 605
+old hickory -> 606
+ollie -> 607
+olmsted -> 608
+omaha -> 609
+oolitic -> 610
+oran -> 611
+orange park -> 612
+orangeburg -> 613
+orient -> 614
+oriskany falls -> 615
+orr -> 616
+owensville -> 617
+oxford -> 618
+ozawkie -> 619
+paauilo -> 620
+paint rock -> 621
+palermo -> 622
+palmdale -> 623
+palmyra -> 624
+paradise valley -> 625
+paris -> 626
+parker -> 627
+parker dam -> 628
+parkers lake -> 629
+parks -> 630
+parsonsfield -> 631
+paulding -> 632
+paxton -> 633
+payson -> 634
+pea ridge -> 635
+pearlington -> 636
+pecos -> 637
+pelham -> 638
+pembroke -> 639
+pembroke township -> 640
+pewee valley -> 641
+phelps -> 642
+phenix city -> 643
+phil campbell -> 644
+philadelphia -> 645
+phoenix -> 646
+pikesville -> 647
+pittsburgh -> 648
+plainfield -> 649
+plantersville -> 650
+pleasant hill -> 651
+plymouth -> 652
+pointe aux pins -> 653
+pomona -> 654
+port charlotte -> 655
+port costa -> 656
+port ewen -> 657
+port gibson -> 658
+port richey -> 659
+port saint lucie -> 660
+portland -> 661
+powell -> 662
+powell butte -> 663
+prairie creek -> 664
+prairie hill -> 665
+premier -> 666
+preston -> 667
+princeton -> 668
+prosperity -> 669
+providence -> 670
+pueblo -> 671
+purmela -> 672
+putnam -> 673
+quanah -> 674
+queen anne -> 675
+queenstown -> 676
+ragland -> 677
+randolph -> 678
+ranier -> 679
+ratcliff -> 680
+ravenna -> 681
+red cliff -> 682
+red river -> 683
+redford -> 684
+remer -> 685
+reno -> 686
+republic -> 687
+reynolds -> 688
+rhame -> 689
+richland -> 690
+ridge spring -> 691
+ridgeland -> 692
+ringwood -> 693
+river -> 694
+riverton -> 695
+riverview -> 696
+rochester -> 697
+rock glen -> 698
+rock springs -> 699
+rock tavern -> 700
+rockwell -> 701
+rockwood -> 702
+rocky mount -> 703
+roland -> 704
+roma -> 705
+romulus -> 706
+ronceverte -> 707
+roosevelt -> 708
+roseland -> 709
+rosewood -> 710
+rossville -> 711
+ruckersville -> 712
+ruidoso -> 713
+rule -> 714
+rumely -> 715
+ruth -> 716
+sachse -> 717
+sacramento -> 718
+saint amant -> 719
+saint bonaventure -> 720
+saint francis -> 721
+saint james city -> 722
+saint louis -> 723
+saint paul -> 724
+saint petersburg -> 725
+san angelo -> 726
+san antonio -> 727
+san diego -> 728
+san jose -> 729
+santa monica -> 730
+sardis -> 731
+sauk rapids -> 732
+saxon -> 733
+scarborough -> 734
+schaefferstown -> 735
+schaumburg -> 736
+scotia -> 737
+scotland -> 738
+scotts mills -> 739
+sea island -> 740
+seattle -> 741
+sebring -> 742
+seligman -> 743
+seneca -> 744
+shedd -> 745
+sheffield -> 746
+shelter island -> 747
+shenandoah junction -> 748
+sherman -> 749
+shields -> 750
+shippingport -> 751
+shrewsbury -> 752
+sixes -> 753
+skytop -> 754
+slayden -> 755
+smackover -> 756
+smith river -> 757
+smithfield -> 758
+smiths grove -> 759
+smock -> 760
+sontag -> 761
+south hero -> 762
+south londonderry -> 763
+south richmond hill -> 764
+southfield -> 765
+spearsville -> 766
+spencer -> 767
+spirit lake -> 768
+sprague -> 769
+spring -> 770
+spring church -> 771
+springfield -> 772
+springfield gardens -> 773
+stanchfield -> 774
+stayton -> 775
+stephensport -> 776
+sterling city -> 777
+steuben -> 778
+stillwater -> 779
+stirling -> 780
+stittville -> 781
+stoneham -> 782
+streator -> 783
+sturgis -> 784
+sula -> 785
+summerfield -> 786
+sun city -> 787
+sunflower -> 788
+superior -> 789
+surrency -> 790
+sutherland -> 791
+syracuse -> 792
+tallmansville -> 793
+tamaroa -> 794
+tampa -> 795
+tekoa -> 796
+texarkana -> 797
+thida -> 798
+thomas -> 799
+thompson -> 800
+thornville -> 801
+thrall -> 802
+tickfaw -> 803
+timberville -> 804
+tiptonville -> 805
+titusville -> 806
+tomahawk -> 807
+tomales -> 808
+topeka -> 809
+tower hill -> 810
+trenton -> 811
+tryon -> 812
+tulsa -> 813
+tupper lake -> 814
+turner -> 815
+tuscarora -> 816
+tyaskin -> 817
+tyler -> 818
+uledi -> 819
+umatilla -> 820
+union -> 821
+unionville -> 822
+university -> 823
+utica -> 824
+vacaville -> 825
+valdosta -> 826
+valentine -> 827
+vancouver -> 828
+vanderbilt -> 829
+varnell -> 830
+veedersburg -> 831
+vero beach -> 832
+vienna -> 833
+vinton -> 834
+viola -> 835
+wales -> 836
+walkertown -> 837
+walnut ridge -> 838
+wappapello -> 839
+warren -> 840
+wartburg -> 841
+washington -> 842
+washington court house -> 843
+washoe valley -> 844
+watertown -> 845
+wauchula -> 846
+waukau -> 847
+waukesha -> 848
+waupaca -> 849
+waynesfield -> 850
+webster city -> 851
+weeping water -> 852
+wendel -> 853
+west bethel -> 854
+west chazy -> 855
+west columbia -> 856
+west decatur -> 857
+west eaton -> 858
+west finley -> 859
+west frankfort -> 860
+west green -> 861
+west harrison -> 862
+west hartford -> 863
+west henrietta -> 864
+west long branch -> 865
+west monroe -> 866
+west palm beach -> 867
+west sayville -> 868
+westerville -> 869
+westfir -> 870
+westhampton beach -> 871
+westport -> 872
+wetmore -> 873
+whaleyville -> 874
+wheaton -> 875
+whigham -> 876
+white sulphur springs -> 877
+whittemore -> 878
+wichita -> 879
+williams -> 880
+williamsburg -> 881
+wilmette -> 882
+wilmington -> 883
+wilton -> 884
+winfield -> 885
+winger -> 886
+winnsboro -> 887
+winslow -> 888
+winter -> 889
+winthrop -> 890
+wittenberg -> 891
+woods cross -> 892
+woodville -> 893
+yellowstone national park -> 894
+zaleski -> 895
+zavalla -> 896
+
+Column: state
+-------------
+ak -> 0
+al -> 1
+ar -> 2
+az -> 3
+ca -> 4
+co -> 5
+ct -> 6
+dc -> 7
+de -> 8
+fl -> 9
+ga -> 10
+hi -> 11
+ia -> 12
+id -> 13
+il -> 14
+in -> 15
+ks -> 16
+ky -> 17
+la -> 18
+ma -> 19
+md -> 20
+me -> 21
+mi -> 22
+mn -> 23
+mo -> 24
+ms -> 25
+mt -> 26
+nc -> 27
+nd -> 28
+ne -> 29
+nh -> 30
+nj -> 31
+nm -> 32
+nv -> 33
+ny -> 34
+oh -> 35
+ok -> 36
+or -> 37
+pa -> 38
+ri -> 39
+sc -> 40
+sd -> 41
+tn -> 42
+tx -> 43
+ut -> 44
+va -> 45
+vt -> 46
+wa -> 47
+wi -> 48
+wv -> 49
+wy -> 50
+
+Column: job
+-----------
+academic librarian -> 0
+accountant, chartered -> 1
+accountant, chartered certified -> 2
+accountant, chartered public finance -> 3
+accounting technician -> 4
+acupuncturist -> 5
+administrator -> 6
+administrator, arts -> 7
+administrator, charities/voluntary organisations -> 8
+administrator, education -> 9
+administrator, local government -> 10
+advertising account executive -> 11
+advertising account planner -> 12
+advertising copywriter -> 13
+advice worker -> 14
+aeronautical engineer -> 15
+agricultural consultant -> 16
+aid worker -> 17
+air broker -> 18
+air cabin crew -> 19
+air traffic controller -> 20
+airline pilot -> 21
+ambulance person -> 22
+amenity horticulturist -> 23
+analytical chemist -> 24
+animal nutritionist -> 25
+animal technologist -> 26
+animator -> 27
+applications developer -> 28
+arboriculturist -> 29
+archaeologist -> 30
+architect -> 31
+architectural technologist -> 32
+archivist -> 33
+armed forces logistics/support/administrative officer -> 34
+armed forces technical officer -> 35
+armed forces training and education officer -> 36
+art gallery manager -> 37
+art therapist -> 38
+artist -> 39
+arts development officer -> 40
+associate professor -> 41
+audiological scientist -> 42
+barista -> 43
+barrister -> 44
+barrister's clerk -> 45
+biochemist, clinical -> 46
+biomedical engineer -> 47
+biomedical scientist -> 48
+bookseller -> 49
+broadcast engineer -> 50
+broadcast journalist -> 51
+broadcast presenter -> 52
+building control surveyor -> 53
+building services engineer -> 54
+building surveyor -> 55
+buyer, industrial -> 56
+buyer, retail -> 57
+cabin crew -> 58
+call centre manager -> 59
+camera operator -> 60
+careers adviser -> 61
+careers information officer -> 62
+cartographer -> 63
+catering manager -> 64
+ceramics designer -> 65
+charity fundraiser -> 66
+charity officer -> 67
+chartered accountant -> 68
+chartered legal executive (england and wales) -> 69
+chartered loss adjuster -> 70
+chartered public finance accountant -> 71
+chemical engineer -> 72
+chemist, analytical -> 73
+chief executive officer -> 74
+chief financial officer -> 75
+chief marketing officer -> 76
+chief of staff -> 77
+chief operating officer -> 78
+chief strategy officer -> 79
+chief technology officer -> 80
+child psychotherapist -> 81
+chiropodist -> 82
+civil engineer, contracting -> 83
+civil service administrator -> 84
+civil service fast streamer -> 85
+claims inspector/assessor -> 86
+clinical biochemist -> 87
+clinical cytogeneticist -> 88
+clinical psychologist -> 89
+clinical research associate -> 90
+clothing/textile technologist -> 91
+colour technologist -> 92
+commercial horticulturist -> 93
+commercial/residential surveyor -> 94
+commissioning editor -> 95
+communications engineer -> 96
+community arts worker -> 97
+community development worker -> 98
+community education officer -> 99
+community pharmacist -> 100
+company secretary -> 101
+comptroller -> 102
+conservation officer, historic buildings -> 103
+conservator, furniture -> 104
+conservator, museum/gallery -> 105
+contracting civil engineer -> 106
+contractor -> 107
+control and instrumentation engineer -> 108
+copy -> 109
+copywriter, advertising -> 110
+corporate investment banker -> 111
+counselling psychologist -> 112
+counsellor -> 113
+curator -> 114
+cytogeneticist -> 115
+dance movement psychotherapist -> 116
+dancer -> 117
+data scientist -> 118
+database administrator -> 119
+dealer -> 120
+designer, ceramics/pottery -> 121
+designer, exhibition/display -> 122
+designer, furniture -> 123
+designer, industrial/product -> 124
+designer, interior/spatial -> 125
+designer, jewellery -> 126
+designer, multimedia -> 127
+designer, television/film set -> 128
+designer, textile -> 129
+development worker, community -> 130
+development worker, international aid -> 131
+diagnostic radiographer -> 132
+dispensing optician -> 133
+doctor, general practice -> 134
+doctor, hospital -> 135
+drilling engineer -> 136
+early years teacher -> 137
+ecologist -> 138
+economist -> 139
+editor, commissioning -> 140
+editor, film/video -> 141
+editor, magazine features -> 142
+education administrator -> 143
+education officer, community -> 144
+education officer, museum -> 145
+educational psychologist -> 146
+electrical engineer -> 147
+electronics engineer -> 148
+embryologist, clinical -> 149
+emergency planning/management officer -> 150
+energy engineer -> 151
+energy manager -> 152
+engineer, aeronautical -> 153
+engineer, agricultural -> 154
+engineer, automotive -> 155
+engineer, biomedical -> 156
+engineer, broadcasting (operations) -> 157
+engineer, building services -> 158
+engineer, civil (consulting) -> 159
+engineer, civil (contracting) -> 160
+engineer, communications -> 161
+engineer, control and instrumentation -> 162
+engineer, drilling -> 163
+engineer, electronics -> 164
+engineer, land -> 165
+engineer, maintenance -> 166
+engineer, manufacturing -> 167
+engineer, materials -> 168
+engineer, mining -> 169
+engineer, petroleum -> 170
+engineer, production -> 171
+engineer, site -> 172
+engineer, structural -> 173
+engineer, technical sales -> 174
+engineering geologist -> 175
+english as a foreign language teacher -> 176
+english as a second language teacher -> 177
+environmental consultant -> 178
+environmental education officer -> 179
+environmental health practitioner -> 180
+environmental manager -> 181
+equality and diversity officer -> 182
+equities trader -> 183
+estate manager/land agent -> 184
+event organiser -> 185
+exercise physiologist -> 186
+exhibition designer -> 187
+exhibitions officer, museum/gallery -> 188
+facilities manager -> 189
+farm manager -> 190
+field seismologist -> 191
+field trials officer -> 192
+film/video editor -> 193
+financial adviser -> 194
+financial trader -> 195
+fine artist -> 196
+firefighter -> 197
+fisheries officer -> 198
+fitness centre manager -> 199
+forensic psychologist -> 200
+forest/woodland manager -> 201
+freight forwarder -> 202
+furniture conservator/restorer -> 203
+furniture designer -> 204
+further education lecturer -> 205
+futures trader -> 206
+gaffer -> 207
+garment/textile technologist -> 208
+general practice doctor -> 209
+geneticist, molecular -> 210
+geochemist -> 211
+geologist, engineering -> 212
+geologist, wellsite -> 213
+geophysicist/field seismologist -> 214
+geoscientist -> 215
+glass blower/designer -> 216
+health and safety adviser -> 217
+health physicist -> 218
+health promotion specialist -> 219
+health service manager -> 220
+health visitor -> 221
+herbalist -> 222
+heritage manager -> 223
+herpetologist -> 224
+higher education careers adviser -> 225
+historic buildings inspector/conservation officer -> 226
+homeopath -> 227
+horticultural consultant -> 228
+horticultural therapist -> 229
+horticulturist, commercial -> 230
+hospital doctor -> 231
+hospital pharmacist -> 232
+hotel manager -> 233
+human resources officer -> 234
+hydrogeologist -> 235
+hydrographic surveyor -> 236
+hydrologist -> 237
+illustrator -> 238
+immigration officer -> 239
+immunologist -> 240
+industrial buyer -> 241
+industrial/product designer -> 242
+information officer -> 243
+information systems manager -> 244
+insurance broker -> 245
+insurance claims handler -> 246
+insurance risk surveyor -> 247
+insurance underwriter -> 248
+intelligence analyst -> 249
+interior and spatial designer -> 250
+interpreter -> 251
+investment analyst -> 252
+investment banker, corporate -> 253
+investment banker, operational -> 254
+it consultant -> 255
+it trainer -> 256
+jewellery designer -> 257
+journalist, newspaper -> 258
+land -> 259
+land/geomatics surveyor -> 260
+landscape architect -> 261
+lawyer -> 262
+learning disability nurse -> 263
+learning mentor -> 264
+lecturer, further education -> 265
+lecturer, higher education -> 266
+legal secretary -> 267
+leisure centre manager -> 268
+lexicographer -> 269
+librarian, academic -> 270
+librarian, public -> 271
+licensed conveyancer -> 272
+local government officer -> 273
+location manager -> 274
+logistics and distribution manager -> 275
+loss adjuster, chartered -> 276
+magazine features editor -> 277
+magazine journalist -> 278
+maintenance engineer -> 279
+make -> 280
+management consultant -> 281
+manufacturing engineer -> 282
+manufacturing systems engineer -> 283
+market researcher -> 284
+marketing executive -> 285
+materials engineer -> 286
+mechanical engineer -> 287
+media buyer -> 288
+media planner -> 289
+medical physicist -> 290
+medical sales representative -> 291
+medical secretary -> 292
+medical technical officer -> 293
+mental health nurse -> 294
+merchandiser, retail -> 295
+metallurgist -> 296
+minerals surveyor -> 297
+mining engineer -> 298
+mudlogger -> 299
+multimedia programmer -> 300
+museum education officer -> 301
+museum/gallery conservator -> 302
+museum/gallery exhibitions officer -> 303
+music therapist -> 304
+music tutor -> 305
+musician -> 306
+nature conservation officer -> 307
+naval architect -> 308
+network engineer -> 309
+neurosurgeon -> 310
+nurse, children's -> 311
+nurse, mental health -> 312
+nutritional therapist -> 313
+occupational hygienist -> 314
+occupational psychologist -> 315
+occupational therapist -> 316
+oceanographer -> 317
+oncologist -> 318
+operational researcher -> 319
+operations geologist -> 320
+optician, dispensing -> 321
+optometrist -> 322
+orthoptist -> 323
+osteopath -> 324
+outdoor activities/education manager -> 325
+paediatric nurse -> 326
+paramedic -> 327
+patent attorney -> 328
+pathologist -> 329
+pension scheme manager -> 330
+pensions consultant -> 331
+personnel officer -> 332
+petroleum engineer -> 333
+pharmacist, community -> 334
+pharmacist, hospital -> 335
+pharmacologist -> 336
+physicist, medical -> 337
+physiological scientist -> 338
+physiotherapist -> 339
+phytotherapist -> 340
+pilot, airline -> 341
+planning and development surveyor -> 342
+plant breeder/geneticist -> 343
+podiatrist -> 344
+police officer -> 345
+politician's assistant -> 346
+presenter, broadcasting -> 347
+press photographer -> 348
+press sub -> 349
+primary school teacher -> 350
+prison officer -> 351
+private music teacher -> 352
+probation officer -> 353
+producer, radio -> 354
+producer, television/film/video -> 355
+product designer -> 356
+product manager -> 357
+product/process development scientist -> 358
+production assistant, radio -> 359
+production assistant, television -> 360
+production engineer -> 361
+production manager -> 362
+professor emeritus -> 363
+programme researcher, broadcasting/film/video -> 364
+programmer, applications -> 365
+programmer, multimedia -> 366
+psychiatric nurse -> 367
+psychiatrist -> 368
+psychologist, clinical -> 369
+psychologist, counselling -> 370
+psychologist, forensic -> 371
+psychologist, sport and exercise -> 372
+psychotherapist -> 373
+psychotherapist, child -> 374
+public affairs consultant -> 375
+public house manager -> 376
+public librarian -> 377
+public relations account executive -> 378
+public relations officer -> 379
+purchasing manager -> 380
+quantity surveyor -> 381
+quarry manager -> 382
+race relations officer -> 383
+radio broadcast assistant -> 384
+radio producer -> 385
+radiographer, diagnostic -> 386
+radiographer, therapeutic -> 387
+records manager -> 388
+regulatory affairs officer -> 389
+research officer, political party -> 390
+research officer, trade union -> 391
+research scientist (life sciences) -> 392
+research scientist (maths) -> 393
+research scientist (medical) -> 394
+research scientist (physical sciences) -> 395
+restaurant manager, fast food -> 396
+retail banker -> 397
+retail buyer -> 398
+retail manager -> 399
+retail merchandiser -> 400
+risk analyst -> 401
+rural practice surveyor -> 402
+sales executive -> 403
+sales professional, it -> 404
+sales promotion account executive -> 405
+science writer -> 406
+scientific laboratory technician -> 407
+scientist, audiological -> 408
+scientist, biomedical -> 409
+scientist, clinical (histocompatibility and immunogenetics) -> 410
+scientist, marine -> 411
+scientist, physiological -> 412
+scientist, research (maths) -> 413
+scientist, research (medical) -> 414
+scientist, research (physical sciences) -> 415
+secondary school teacher -> 416
+secretary/administrator -> 417
+seismic interpreter -> 418
+senior tax professional/tax inspector -> 419
+set designer -> 420
+ship broker -> 421
+site engineer -> 422
+social research officer, government -> 423
+social researcher -> 424
+soil scientist -> 425
+solicitor -> 426
+solicitor, scotland -> 427
+special educational needs teacher -> 428
+special effects artist -> 429
+sport and exercise psychologist -> 430
+sports administrator -> 431
+sports development officer -> 432
+stage manager -> 433
+statistician -> 434
+structural engineer -> 435
+sub -> 436
+surgeon -> 437
+surveyor, hydrographic -> 438
+surveyor, land/geomatics -> 439
+surveyor, minerals -> 440
+surveyor, mining -> 441
+surveyor, rural practice -> 442
+systems analyst -> 443
+systems developer -> 444
+tax adviser -> 445
+tax inspector -> 446
+teacher, adult education -> 447
+teacher, early years/pre -> 448
+teacher, english as a foreign language -> 449
+teacher, primary school -> 450
+teacher, secondary school -> 451
+teacher, special educational needs -> 452
+teaching laboratory technician -> 453
+technical brewer -> 454
+tefl teacher -> 455
+telecommunications researcher -> 456
+television camera operator -> 457
+television floor manager -> 458
+television production assistant -> 459
+television/film/video producer -> 460
+textile designer -> 461
+theatre director -> 462
+theatre manager -> 463
+theme park manager -> 464
+therapist, art -> 465
+therapist, drama -> 466
+therapist, horticultural -> 467
+therapist, music -> 468
+therapist, occupational -> 469
+therapist, sports -> 470
+tour manager -> 471
+tourism officer -> 472
+tourist information centre manager -> 473
+town planner -> 474
+toxicologist -> 475
+trade mark attorney -> 476
+trading standards officer -> 477
+training and development officer -> 478
+transport planner -> 479
+travel agency manager -> 480
+tree surgeon -> 481
+veterinary surgeon -> 482
+video editor -> 483
+visual merchandiser -> 484
+volunteer coordinator -> 485
+warden/ranger -> 486
+warehouse manager -> 487
+waste management officer -> 488
+water engineer -> 489
+water quality scientist -> 490
+web designer -> 491
+wellsite geologist -> 492
+writer -> 493
+
+Column: gender
+--------------
+f -> 0
+m -> 1
+nan -> 2
+

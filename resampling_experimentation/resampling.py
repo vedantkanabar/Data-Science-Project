@@ -62,7 +62,8 @@ def getTrainingSample(resampling_method, X_train, Y_train):
             return X_res, Y_res
 
         case "NearMiss-3":
-            sampler = NearMiss(version=3)
+            # added a neighbours_ver3 value of 7 to increase the pool that is sampled from to prevent a sampling error
+            sampler = NearMiss(version=3, n_neighbors_ver3=7)
             X_res, Y_res = sampler.fit_resample(X_train, Y_train)
             del sampler
             return X_res, Y_res
@@ -89,22 +90,24 @@ def getResults(resampling_method, Y_test, Y_pred):
     with open("results.txt", "a") as f:
         f.write(f"\nClassification Report for {resampling_method}:\n\n")
 
-        f.write(f"Accuracy:  {acc:.5f}\n")
-        f.write(f"Precision: {prec:.5f}\n")
-        f.write(f"Recall:    {rec:.5f}\n")
-        f.write(f"F1 Score:  {f1:.5f}\n\n")
+        f.write(f"Accuracy:  {acc * 100:.5f}%\n")
+        f.write(f"Precision: {prec * 100:.5f}%\n")
+        f.write(f"Recall:    {rec * 100:.5f}%\n")
+        f.write(f"F1 Score:  {f1 * 100:.5f}%\n\n")
 
-        f.write(f"True Positive:  {tp:.5f}%\n")
-        f.write(f"True Negative:  {tn:.5f}%\n")
-        f.write(f"False Positive: {fp:.5f}%\n")
-        f.write(f"False Negative: {fp:.5f}%\n\n")
+        f.write(f"True Positive:  {tp * 100:.5f}%\n")
+        f.write(f"True Negative:  {tn * 100:.5f}%\n")
+        f.write(f"False Positive: {fp * 100:.5f}%\n")
+        f.write(f"False Negative: {fp * 100:.5f}%\n\n")
 
-        f.write(classification_report(Y_test, Y_pred))
+        f.write(classification_report(Y_test, Y_pred, digits=5))
         f.write("\n")
 
     # Create and save plot
-    disp = ConfusionMatrixDisplay(confusion_matrix=cm)
-    disp.plot(cmap='Blues', values_format=".5f")
+    disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=["Not Fraud", "Fraud"])
+    disp.plot(cmap='Blues', values_format=".5%")
+    disp.ax_.set_xlabel("Predicted Class")
+    disp.ax_.set_ylabel("Actual Class")
     plt.title(f"Normalized Confusion Matrix for {resampling_method}")
     plt.savefig(f"Confusion Matrix - {resampling_method}.png")
     plt.clf()

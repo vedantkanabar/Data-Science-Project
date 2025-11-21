@@ -23,32 +23,24 @@ models = {
 }
 
 param_dists = {
+    "AdaBoost": {
+        "n_estimators": randint(100, 500),       # more estimators
+        "learning_rate": uniform(0.001, 2)       # allow smaller learning rates
+    },
     "Decision Tree": {
         "max_depth": [None, 20, 30, 40, 50],
         "min_samples_split": randint(2, 10),
         "min_samples_leaf": randint(1, 5)
     },
     "Random Forest": {
-        "n_estimators": randint(100, 300),
+        "n_estimators": randint(100, 500),       # more trees to stabilize performance
         "max_depth": [None, 20, 30, 40, 50],
         "min_samples_split": randint(2, 10),
         "min_samples_leaf": randint(1, 5),
-        "bootstrap": [True, False]
+        "bootstrap": [True, False]               # keep both to compare
     },
     "Linear SVM": {
-        "C": uniform(0.01, 10)
-    },
-    """
-    # This might take forever
-    "KNN": {
-        "n_neighbors": randint(10, 50),
-        "weights": ["uniform", "distance"],
-        "p": [1, 2]
-    },
-    """
-    "AdaBoost": {
-        "n_estimators": randint(100, 300),
-        "learning_rate": uniform(0.01, 2)
+        "C": uniform(0.01, 10)                   
     }
 }
 
@@ -77,10 +69,11 @@ with open ("tuning.txt", "w") as file:
         random_search = RandomizedSearchCV(
             estimator=model, 
             param_distributions=param_dists[model_title],
-            n_iter=50,
-            cv=5,
+            n_iter=20,
+            cv=3,
             n_jobs=-1,
-            scoring="roc_auc"
+            scoring="average_precision",
+            random_state=35
         )
         random_search.fit(data_train, label_train)
 

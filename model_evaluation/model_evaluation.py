@@ -9,10 +9,14 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score, classification_report
 from sklearn.inspection import permutation_importance
 from sklearn.impute import SimpleImputer
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import StandardScaler
+from sklearn.compose import ColumnTransformer
+from imblearn.under_sampling import NearMiss
 
 # List of models to be evaluated
 modelsList = {
-    "Logistics Regression": LogisticRegression(class_weight="balanced"),
+    "Logistic Regression": LogisticRegression(class_weight="balanced", solver="saga", max_iter=5000),
     "Decision Tree": DecisionTreeClassifier(class_weight="balanced"),
     "Random Forest": RandomForestClassifier(class_weight="balanced"),
     "SVM Linear": LinearSVC(class_weight="balanced"),
@@ -39,6 +43,34 @@ imputer = SimpleImputer(strategy="median")
 data_train = pd.DataFrame(imputer.fit_transform(data_train), columns=feature_names)
 data_test = pd.DataFrame(imputer.transform(data_test), columns=feature_names)
 
+# Split the cols based on categorical vs. numerical
+categorical_cols = ['merchant', 'category', 'city', 'state', 'job', 'gender']
+numerical_cols = [col for col in data_train.columns if col not in categorical_cols]
+
+# Resample the data using NearMiss-1
+nearmiss_sampler = NearMiss(version=1)
+data_train_resampled, label_train_resampled = nearmiss_sampler.fit_resample(data_train, label_train)
+
+# Initialized the column transformer
+preprocessor = ColumnTransformer(
+    transformers=[
+        ('num', StandardScaler(), numerical_cols),
+        ('cat', 'passthrough', categorical_cols)
+    ]
+)
+
+# Fit only on the resampled training data
+data_train_scaled = pd.DataFrame(
+    preprocessor.fit_transform(data_train_resampled),
+    columns=numerical_cols + categorical_cols
+)
+
+# Transform test data
+data_test_scaled = pd.DataFrame(
+    preprocessor.transform(data_test),
+    columns=numerical_cols + categorical_cols
+)
+
 # Opening the file to store the evaluation results
 with open("results.txt", "w") as file:
     for model_title, model in modelsList.items():
@@ -47,13 +79,13 @@ with open("results.txt", "w") as file:
         print(f"Training model: {model_title}...")
 
         # Training the model
-        model.fit(data_train, label_train)
-        label_predict = model.predict(data_test)
+        model.fit(data_train_scaled, label_train_resampled)
+        label_predict = model.predict(data_test_scaled)
 
         # Taking the performance metric of the model
-        precision = precision_score(label_test, label_predict, zero_division=0)
-        recall = recall_score(label_test, label_predict, zero_division=0)
-        f1 = f1_score(label_test, label_predict, zero_division=0)
+        precision = precision_score(label_test, label_predict)
+        recall = recall_score(label_test, label_predict)
+        f1 = f1_score(label_test, label_predict)
         cm = confusion_matrix(label_test, label_predict)
 
         TN, FP, FN, TP = cm.ravel()
@@ -74,23 +106,34 @@ with open("results.txt", "w") as file:
         file.write("\n")
 
         # Permutation Importance to show the top features
-        file.write("Permutation Importance (Top 5 Features):\n")
+        file.write("Permutation Importance (Top 10 Features):\n")
 
-        r = permutation_importance(model, data_test, label_test, n_repeats=5, random_state=27)
+        r = permutation_importance(model, data_test_scaled, label_test, n_repeats=5, random_state=27)
 
         ranked = sorted(zip(feature_names, r.importances_mean), key=lambda x: x[1], reverse=True)
 
-        for feature, importance_score in ranked[:5]:
+        for feature, importance_score in ranked[:10]:
                 file.write(f"{feature}: {importance_score:.6f}\n")
+        
+        top_features = ranked[:10]
+        features = [f for f, _ in top_features]
+        scores = [s for _, s in top_features]
+
+        # Plot for feature importance
+        plt.figure(figsize=(8, 5))
+        plt.barh(features, scores)
+        plt.xlabel("Importance Score (Mean Decrease in Accuracy)")
+        plt.title("Top 10 Features")
+        plt.gca().invert_yaxis()
+        plt.tight_layout()
+
+        # Save the figure
+        plt.savefig(f"Feature_Importance_{model_title.replace(' ', '_')}.png")
+
+        # Clear the figure to free memory
+        plt.clf()
+        plt.close()
 
         file.write("\n")
 
 print("Model evaluation completed. Results saved to results.txt")
-
-
-
-
-
-
-
-

@@ -1,154 +1,154 @@
 
 Classification Report for Random Sample:
 
-Accuracy:  99.76738%
-Precision: 92.68293%
-Recall:    73.15508%
-F1 Score:  81.76928%
+Accuracy:  99.77691%
+Precision: 92.97659%
+Recall:    74.33155%
+F1 Score:  82.61516%
 
-True Positive:  73.15508%
-True Negative:  99.95852%
-False Positive: 0.04148%
-False Negative: 0.04148%
+True Positive:  74.33155%
+True Negative:  99.95967%
+False Positive: 0.04033%
+False Negative: 0.04033%
 
               precision    recall  f1-score   support
 
-           0    0.99807   0.99959   0.99883    260355
-           1    0.92683   0.73155   0.81769      1870
+           0    0.99816   0.99960   0.99888    260355
+           1    0.92977   0.74332   0.82615      1870
 
-    accuracy                        0.99767    262225
-   macro avg    0.96245   0.86557   0.90826    262225
-weighted avg    0.99757   0.99767   0.99754    262225
+    accuracy                        0.99777    262225
+   macro avg    0.96396   0.87146   0.91251    262225
+weighted avg    0.99767   0.99777   0.99765    262225
 
 
 Classification Report for Random OverSample:
 
-Accuracy:  99.80093%
-Precision: 92.23058%
-Recall:    78.71658%
-F1 Score:  84.93941%
+Accuracy:  99.80704%
+Precision: 92.25527%
+Recall:    79.62567%
+F1 Score:  85.47646%
 
-True Positive:  78.71658%
-True Negative:  99.95237%
-False Positive: 0.04763%
-False Negative: 0.04763%
+True Positive:  79.62567%
+True Negative:  99.95199%
+False Positive: 0.04801%
+False Negative: 0.04801%
 
               precision    recall  f1-score   support
 
-           0    0.99847   0.99952   0.99900    260355
-           1    0.92231   0.78717   0.84939      1870
+           0    0.99854   0.99952   0.99903    260355
+           1    0.92255   0.79626   0.85476      1870
 
-    accuracy                        0.99801    262225
-   macro avg    0.96039   0.89334   0.92420    262225
-weighted avg    0.99793   0.99801   0.99793    262225
+    accuracy                        0.99807    262225
+   macro avg    0.96055   0.89789   0.92690    262225
+weighted avg    0.99800   0.99807   0.99800    262225
 
 
 Classification Report for SMOTE:
 
-Accuracy:  99.57136%
-Precision: 66.68157%
-Recall:    79.73262%
-F1 Score:  72.62543%
+Accuracy:  99.73267%
+Precision: 82.78183%
+Recall:    78.93048%
+F1 Score:  80.81029%
 
-True Positive:  79.73262%
-True Negative:  99.71385%
-False Positive: 0.28615%
-False Negative: 0.28615%
+True Positive:  78.93048%
+True Negative:  99.88208%
+False Positive: 0.11792%
+False Negative: 0.11792%
 
               precision    recall  f1-score   support
 
-           0    0.99854   0.99714   0.99784    260355
-           1    0.66682   0.79733   0.72625      1870
+           0    0.99849   0.99882   0.99865    260355
+           1    0.82782   0.78930   0.80810      1870
 
-    accuracy                        0.99571    262225
-   macro avg    0.83268   0.89723   0.86205    262225
-weighted avg    0.99618   0.99571   0.99590    262225
+    accuracy                        0.99733    262225
+   macro avg    0.91315   0.89406   0.90338    262225
+weighted avg    0.99727   0.99733   0.99730    262225
 
 
 Classification Report for ADASYN:
 
-Accuracy:  99.62513%
-Precision: 72.77863%
-Recall:    75.77540%
-F1 Score:  74.24679%
+Accuracy:  99.73916%
+Precision: 86.15854%
+Recall:    75.56150%
+F1 Score:  80.51282%
 
-True Positive:  75.77540%
-True Negative:  99.79643%
-False Positive: 0.20357%
-False Negative: 0.20357%
+True Positive:  75.56150%
+True Negative:  99.91281%
+False Positive: 0.08719%
+False Negative: 0.08719%
 
               precision    recall  f1-score   support
 
-           0    0.99826   0.99796   0.99811    260355
-           1    0.72779   0.75775   0.74247      1870
+           0    0.99825   0.99913   0.99869    260355
+           1    0.86159   0.75561   0.80513      1870
 
-    accuracy                        0.99625    262225
-   macro avg    0.86302   0.87786   0.87029    262225
-weighted avg    0.99633   0.99625   0.99629    262225
+    accuracy                        0.99739    262225
+   macro avg    0.92992   0.87737   0.90191    262225
+weighted avg    0.99727   0.99739   0.99731    262225
 
 
 Classification Report for Random UnderSample:
 
-Accuracy:  99.76738%
-Precision: 92.68293%
-Recall:    73.15508%
-F1 Score:  81.76928%
+Accuracy:  99.77691%
+Precision: 92.97659%
+Recall:    74.33155%
+F1 Score:  82.61516%
 
-True Positive:  73.15508%
-True Negative:  99.95852%
-False Positive: 0.04148%
-False Negative: 0.04148%
+True Positive:  74.33155%
+True Negative:  99.95967%
+False Positive: 0.04033%
+False Negative: 0.04033%
 
               precision    recall  f1-score   support
 
-           0    0.99807   0.99959   0.99883    260355
-           1    0.92683   0.73155   0.81769      1870
+           0    0.99816   0.99960   0.99888    260355
+           1    0.92977   0.74332   0.82615      1870
 
-    accuracy                        0.99767    262225
-   macro avg    0.96245   0.86557   0.90826    262225
-weighted avg    0.99757   0.99767   0.99754    262225
+    accuracy                        0.99777    262225
+   macro avg    0.96396   0.87146   0.91251    262225
+weighted avg    0.99767   0.99777   0.99765    262225
 
 
 Classification Report for NearMiss-1:
 
-Accuracy:  96.29288%
-Precision: 15.47797%
-Recall:    94.11765%
-F1 Score:  26.58409%
+Accuracy:  96.52703%
+Precision: 16.38644%
+Recall:    94.33155%
+F1 Score:  27.92244%
 
-True Positive:  94.11765%
-True Negative:  96.30850%
-False Positive: 3.69150%
-False Negative: 3.69150%
+True Positive:  94.33155%
+True Negative:  96.54280%
+False Positive: 3.45720%
+False Negative: 3.45720%
 
               precision    recall  f1-score   support
 
-           0    0.99956   0.96309   0.98098    260355
-           1    0.15478   0.94118   0.26584      1870
+           0    0.99958   0.96543   0.98221    260355
+           1    0.16386   0.94332   0.27922      1870
 
-    accuracy                        0.96293    262225
-   macro avg    0.57717   0.95213   0.62341    262225
-weighted avg    0.99354   0.96293   0.97588    262225
+    accuracy                        0.96527    262225
+   macro avg    0.58172   0.95437   0.63072    262225
+weighted avg    0.99362   0.96527   0.97719    262225
 
 
 Classification Report for NearMiss-3:
 
-Accuracy:  96.91258%
-Precision: 18.05213%
-Recall:    94.06417%
-F1 Score:  30.29103%
+Accuracy:  96.92974%
+Precision: 18.12274%
+Recall:    93.95722%
+F1 Score:  30.38478%
 
-True Positive:  94.06417%
-True Negative:  96.93303%
-False Positive: 3.06697%
-False Negative: 3.06697%
+True Positive:  93.95722%
+True Negative:  96.95109%
+False Positive: 3.04891%
+False Negative: 3.04891%
 
               precision    recall  f1-score   support
 
-           0    0.99956   0.96933   0.98421    260355
-           1    0.18052   0.94064   0.30291      1870
+           0    0.99955   0.96951   0.98430    260355
+           1    0.18123   0.93957   0.30385      1870
 
-    accuracy                        0.96913    262225
-   macro avg    0.59004   0.95499   0.64356    262225
-weighted avg    0.99372   0.96913   0.97935    262225
+    accuracy                        0.96930    262225
+   macro avg    0.59039   0.95454   0.64408    262225
+weighted avg    0.99372   0.96930   0.97945    262225
 

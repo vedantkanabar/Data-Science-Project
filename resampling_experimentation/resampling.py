@@ -15,6 +15,7 @@ from sklearn.metrics import (
     ConfusionMatrixDisplay
 )
 import matplotlib.pyplot as plt
+from sklearn.impute import SimpleImputer
 
 
 def getTrainingSample(resampling_method, X_train, Y_train):
@@ -126,13 +127,18 @@ if __name__ == "__main__":
 
     # Split into features and the target variable (is_fraud) and fill in the Nan values
     Features = dFrame.drop("is_fraud", axis=1)
-    Features = Features.fillna(0)
     Is_Fraud = dFrame["is_fraud"]
+    feature_names = Features.columns
 
     # Split the data into testing and training keeping the same class balance in the splits
     Features_train, Features_test, Is_Fraud_train, Is_Fraud_test = train_test_split(
         Features, Is_Fraud, test_size=0.2, random_state=27, stratify=Is_Fraud
     )
+
+    imputer = SimpleImputer(strategy="median")
+
+    Features_train = pd.DataFrame(imputer.fit_transform(Features_train), columns=feature_names)
+    Features_test = pd.DataFrame(imputer.transform(Features_test), columns=feature_names)
 
     resampling_methods = [
         "Random Sample",

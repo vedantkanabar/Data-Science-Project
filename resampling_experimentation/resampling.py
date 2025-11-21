@@ -99,7 +99,7 @@ def getResults(resampling_method, Y_test, Y_pred):
         f.write(f"True Positive:  {tp * 100:.5f}%\n")
         f.write(f"True Negative:  {tn * 100:.5f}%\n")
         f.write(f"False Positive: {fp * 100:.5f}%\n")
-        f.write(f"False Negative: {fp * 100:.5f}%\n\n")
+        f.write(f"False Negative: {fn * 100:.5f}%\n\n")
 
         f.write(classification_report(Y_test, Y_pred, digits=5))
         f.write("\n")

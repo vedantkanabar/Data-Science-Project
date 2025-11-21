@@ -12,10 +12,10 @@ from sklearn.impute import SimpleImputer
 
 # List of models to be evaluated
 modelsList = {
-    "Logistics Regression": LogisticRegression(class_weight="balanced"),
+    "Logistic Regression": LogisticRegression(class_weight="balanced"),
     "Decision Tree": DecisionTreeClassifier(class_weight="balanced"),
     "Random Forest": RandomForestClassifier(class_weight="balanced"),
-    "SVM Linear": LinearSVC(class_weight="balanced"),
+    "Linear SVM": LinearSVC(class_weight="balanced"),
     # "SVM RBF": SVC(kernel="rbf", class_weight="balanced"),
     "KNN": KNeighborsClassifier(),
     "Naive Bayes": GaussianNB(),

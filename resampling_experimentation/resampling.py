@@ -14,6 +14,8 @@ from sklearn.metrics import (
     classification_report,
     ConfusionMatrixDisplay
 )
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 from sklearn.impute import SimpleImputer
 
@@ -157,16 +159,41 @@ if __name__ == "__main__":
 
         print(f"Running Random Forest Classifier with training data from {resampling_method}.")
 
-        # Get the samples based on resampling method
-        (Sampling_features_train, Sampling_Is_Fraud_train) = getTrainingSample(resampling_method, Features_train, Is_Fraud_train)
+        # Get categorical and numerical columns to prepare for standardization
+        (Sampling_features_train, Sampling_Is_Fraud_train) = getTrainingSample(
+            resampling_method, Features_train, Is_Fraud_train
+        )
+
+        categorical_cols = ['merchant', 'category', 'city', 'state', 'job', 'gender']
+        numerical_cols = [col for col in Features_train.columns if col not in categorical_cols]
+
+        preprocessor = ColumnTransformer(
+            transformers=[
+                ('num', StandardScaler(), numerical_cols),
+                ('cat', 'passthrough', categorical_cols)
+            ]
+        )
+
+        # Fit only on the training data (after resampling)
+        Sampling_features_train_scaled = pd.DataFrame(
+            preprocessor.fit_transform(Sampling_features_train),
+            columns=numerical_cols + categorical_cols
+        )
+
+        # Apply the same transformation to the test data
+        Features_test_scaled = pd.DataFrame(
+            preprocessor.transform(Features_test),
+            columns=numerical_cols + categorical_cols
+        )
+
 
         print(f"Got the samples from {resampling_method}")
 
         # Train the model with the same random state
         model = RandomForestClassifier(random_state=27, n_jobs=-1)
-        model.fit(Sampling_features_train, Sampling_Is_Fraud_train)
+        model.fit(Sampling_features_train_scaled, Sampling_Is_Fraud_train)
 
-        Is_Fraud_pred = model.predict(Features_test)
+        Is_Fraud_pred = model.predict(Features_test_scaled)
 
         print("Model complete, saving results.")
 
@@ -178,6 +205,8 @@ if __name__ == "__main__":
         # --- MEMORY CLEANUP ---
         del Sampling_features_train
         del Sampling_Is_Fraud_train
+        del Sampling_features_train_scaled
+        del Features_test_scaled
         del model
         del Is_Fraud_pred
 

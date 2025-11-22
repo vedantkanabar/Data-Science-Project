@@ -6,7 +6,7 @@ df_choudhury = pd.read_csv("../choudhury_dataset/choudhury_dataset_cleaned.csv")
 
 # Combining both datasets and dropping unnecessary columns
 combined = pd.concat([df_choudhury, df_shenoy], ignore_index=True)
-combined = combined.drop(columns=["Unnamed: 0", "street", "zip", "cc_num", "first", "last", "trans_num"], errors="ignore")
+combined = combined.drop(columns=["Unnamed: 0", "street", "zip", "cc_num", "first", "last", "trans_num", "unix_time"], errors="ignore")
 
 # Writing the result to combined.csv file
 combined.to_csv("combined.csv", index=False)

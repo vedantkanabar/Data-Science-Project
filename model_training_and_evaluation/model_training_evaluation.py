@@ -6,7 +6,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score, classification_report
+from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score, classification_report, ConfusionMatrixDisplay
 from sklearn.inspection import permutation_importance
 from sklearn.impute import SimpleImputer
 import matplotlib.pyplot as plt
@@ -86,7 +86,7 @@ with open("results.txt", "w") as file:
         precision = precision_score(label_test, label_predict)
         recall = recall_score(label_test, label_predict)
         f1 = f1_score(label_test, label_predict)
-        cm = confusion_matrix(label_test, label_predict)
+        cm = confusion_matrix(label_test, label_predict, normalize='true')
 
         TN, FP, FN, TP = cm.ravel()
         accuracy = (TP + TN) / (TP + TN + FP + FN)
@@ -97,16 +97,25 @@ with open("results.txt", "w") as file:
         file.write(f"Recall:    {recall*100:.5f}%\n")
         file.write(f"F1 Score:  {f1*100:.5f}%\n\n")
 
-        file.write(f"True Positive:  {TP / (TP + FN) * 100:.5f}%\n")
-        file.write(f"True Negative:  {TN / (TN + FP) * 100:.5f}%\n")
-        file.write(f"False Positive: {FP / (FP + TN) * 100:.5f}%\n")
-        file.write(f"False Negative: {FN / (FN + TP) * 100:.5f}%\n\n")
+        file.write(f"True Positive:  {TP * 100:.5f}%\n")
+        file.write(f"True Negative:  {TN * 100:.5f}%\n")
+        file.write(f"False Positive: {FP * 100:.5f}%\n")
+        file.write(f"False Negative: {FN * 100:.5f}%\n\n")
 
         file.write(classification_report(label_test, label_predict, digits=5))
         file.write("\n")
 
         # Permutation Importance to show the top features
         file.write("Permutation Importance (Top 10 Features):\n")
+
+        disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=["Not Fraud", "Fraud"])
+        disp.plot(cmap='Blues', values_format=".5%")
+        disp.ax_.set_xlabel("Predicted Class")
+        disp.ax_.set_ylabel("Actual Class")
+        plt.title(f"Normalized Confusion Matrix for {model_title}")
+        plt.savefig(f"Confusion Matrix - {model_title}.png")
+        plt.clf()
+        plt.close()
 
         r = permutation_importance(model, data_test_scaled, label_test, n_repeats=5, random_state=27)
 

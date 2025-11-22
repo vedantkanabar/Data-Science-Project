@@ -1,105 +1,105 @@
 Evaluation Result for model: Logistic Regression
 
-Accuracy:  95.67204%
-Precision: 11.58304%
+Accuracy:  86.11411%
+Precision: 11.58492%
 Recall:    76.41711%
-F1 Score:  20.11684%
+F1 Score:  20.11968%
 
 True Positive:  76.41711%
-True Negative:  95.81034%
-False Positive: 4.18966%
+True Negative:  95.81110%
+False Positive: 4.18890%
 False Negative: 23.58289%
 
               precision    recall  f1-score   support
 
-           0    0.99824   0.95810   0.97776    260355
-           1    0.11583   0.76417   0.20117      1870
+           0    0.99824   0.95811   0.97776    260355
+           1    0.11585   0.76417   0.20120      1870
 
-    accuracy                        0.95672    262225
-   macro avg    0.55703   0.86114   0.58946    262225
-weighted avg    0.99194   0.95672   0.97222    262225
+    accuracy                        0.95673    262225
+   macro avg    0.55704   0.86114   0.58948    262225
+weighted avg    0.99194   0.95673   0.97222    262225
 
 Permutation Importance (Top 10 Features):
-merchant: 0.014865
-gender: 0.006627
-merch_lat: 0.001291
-job: 0.000883
-merch_long: 0.000331
+merchant: 0.014867
+gender: 0.006629
+merch_lat: 0.001297
+job: 0.000887
+merch_long: 0.000332
 city_pop: 0.000207
-lat: 0.000069
+lat: 0.000072
 trans_date_trans_time: 0.000031
-category: -0.000048
-city: -0.000204
+category: -0.000046
+city: -0.000200
 
 Evaluation Result for model: Decision Tree
 
-Accuracy:  95.01535%
-Precision: 12.17667%
-Recall:    96.41711%
-F1 Score:  21.62259%
+Accuracy:  95.61414%
+Precision: 12.41794%
+Recall:    96.09626%
+F1 Score:  21.99376%
 
-True Positive:  96.41711%
-True Negative:  95.00528%
-False Positive: 4.99472%
-False Negative: 3.58289%
+True Positive:  96.09626%
+True Negative:  95.13203%
+False Positive: 4.86797%
+False Negative: 3.90374%
 
               precision    recall  f1-score   support
 
-           0    0.99973   0.95005   0.97426    260355
-           1    0.12177   0.96417   0.21623      1870
+           0    0.99971   0.95132   0.97491    260355
+           1    0.12418   0.96096   0.21994      1870
 
-    accuracy                        0.95015    262225
-   macro avg    0.56075   0.95711   0.59524    262225
-weighted avg    0.99347   0.95015   0.96885    262225
+    accuracy                        0.95139    262225
+   macro avg    0.56194   0.95614   0.59743    262225
+weighted avg    0.99346   0.95139   0.96953    262225
 
 Permutation Importance (Top 10 Features):
-merchant: 0.040931
-job: 0.033100
-gender: 0.005879
-trans_date_trans_time: 0.004197
-city: 0.002231
-state: 0.002025
-city_pop: 0.000212
-dob: 0.000052
-amt: 0.000040
-merch_long: 0.000036
+merchant: 0.041525
+job: 0.033875
+gender: 0.005639
+trans_date_trans_time: 0.003780
+city: 0.002150
+state: 0.001660
+lat: 0.000416
+city_pop: 0.000304
+merch_long: 0.000076
+merch_lat: -0.000043
 
 Evaluation Result for model: Random Forest
 
-Accuracy:  96.22118%
-Precision: 15.33420%
-Recall:    95.08021%
-F1 Score:  26.40921%
+Accuracy:  95.69926%
+Precision: 16.02454%
+Recall:    94.97326%
+F1 Score:  27.42222%
 
-True Positive:  95.08021%
-True Negative:  96.22938%
-False Positive: 3.77062%
-False Negative: 4.91979%
+True Positive:  94.97326%
+True Negative:  96.42527%
+False Positive: 3.57473%
+False Negative: 5.02674%
 
               precision    recall  f1-score   support
 
-           0    0.99963   0.96229   0.98061    260355
-           1    0.15334   0.95080   0.26409      1870
+           0    0.99963   0.96425   0.98162    260355
+           1    0.16025   0.94973   0.27422      1870
 
-    accuracy                        0.96221    262225
-   macro avg    0.57649   0.95655   0.62235    262225
-weighted avg    0.99360   0.96221   0.97550    262225
+    accuracy                        0.96415    262225
+   macro avg    0.57994   0.95699   0.62792    262225
+weighted avg    0.99364   0.96415   0.97658    262225
 
 Permutation Importance (Top 10 Features):
-merchant: 0.047147
-job: 0.037328
-gender: 0.003732
-trans_date_trans_time: 0.002818
-state: 0.001875
-city: 0.001105
-city_pop: -0.000039
-long: -0.000206
-merch_long: -0.000217
-dob: -0.000445
+merchant: 0.046235
+job: 0.036125
+gender: 0.005730
+trans_date_trans_time: 0.003395
+state: 0.001882
+city: 0.000774
+city_pop: -0.000114
+merch_lat: -0.000374
+merch_long: -0.000428
+dob: -0.000564
 
 Evaluation Result for model: SVM Linear
 
-Accuracy:  96.18076%
+Accuracy:  86.10445%
 Precision: 12.91997%
 Recall:    75.88235%
 F1 Score:  22.08045%
@@ -119,20 +119,20 @@ False Negative: 24.11765%
 weighted avg    0.99201   0.96181   0.97501    262225
 
 Permutation Importance (Top 10 Features):
-amt: 0.052787
-long: 0.052733
-lat: 0.032889
-category: 0.030340
+amt: 0.052620
+long: 0.052582
+lat: 0.032873
+category: 0.030317
 merchant: 0.015343
-gender: 0.005506
+gender: 0.005507
 job: 0.002290
-merch_lat: 0.000438
-trans_date_trans_time: 0.000057
-city_pop: 0.000055
+merch_lat: 0.000439
+city_pop: 0.000056
+trans_date_trans_time: 0.000056
 
 Evaluation Result for model: KNN
 
-Accuracy:  53.34236%
+Accuracy:  54.68287%
 Precision: 0.85499%
 Recall:    56.04278%
 F1 Score:  1.68429%
@@ -165,7 +165,7 @@ merchant: 0.000010
 
 Evaluation Result for model: Naive Bayes
 
-Accuracy:  93.42778%
+Accuracy:  81.74493%
 Precision: 7.27000%
 Recall:    69.89305%
 F1 Score:  13.17009%
@@ -198,7 +198,7 @@ merch_lat: -0.000526
 
 Evaluation Result for model: AdaBoost
 
-Accuracy:  94.95586%
+Accuracy:  91.75244%
 Precision: 11.28383%
 Recall:    88.50267%
 F1 Score:  20.01572%

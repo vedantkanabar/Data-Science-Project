@@ -9,6 +9,9 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.impute import SimpleImputer
+from sklearn.preprocessing import StandardScaler
+from sklearn.compose import ColumnTransformer
+from imblearn.under_sampling import NearMiss
 
 # List of models to be evaluated
 models = {
@@ -61,6 +64,34 @@ imputer = SimpleImputer(strategy="median")
 data_train = pd.DataFrame(imputer.fit_transform(data_train), columns=feature_names)
 data_test = pd.DataFrame(imputer.transform(data_test), columns=feature_names)
 
+# Split the cols based on categorical vs. numerical
+categorical_cols = ['merchant', 'category', 'city', 'state', 'job', 'gender']
+numerical_cols = [col for col in data_train.columns if col not in categorical_cols]
+
+# Resample the data using NearMiss-1
+nearmiss_sampler = NearMiss(version=1)
+data_train_resampled, label_train_resampled = nearmiss_sampler.fit_resample(data_train, label_train)
+
+# Initialized the column transformer
+preprocessor = ColumnTransformer(
+    transformers=[
+        ('num', StandardScaler(), numerical_cols),
+        ('cat', 'passthrough', categorical_cols)
+    ]
+)
+
+# Fit only on the resampled training data
+data_train_scaled = pd.DataFrame(
+    preprocessor.fit_transform(data_train_resampled),
+    columns=numerical_cols + categorical_cols
+)
+
+# Transform test data
+data_test_scaled = pd.DataFrame(
+    preprocessor.transform(data_test),
+    columns=numerical_cols + categorical_cols
+)
+
 with open ("tuning.txt", "w") as file:
     for model_title, model in models.items():
         file.write(f"Hyperparameter tuning for model: {model_title}\n\n")
@@ -75,7 +106,7 @@ with open ("tuning.txt", "w") as file:
             scoring="average_precision",
             random_state=35
         )
-        random_search.fit(data_train, label_train)
+        random_search.fit(data_train_scaled, label_train_resampled)
 
         file.write(f"Best parameters: {random_search.best_params_}\n\n")
 

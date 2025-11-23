@@ -1,0 +1,20 @@
+Hyperparameter tuning for model: KNN
+
+Best parameters: {'n_neighbors': 9, 'p': 1, 'weights': 'distance'}
+
+Hyperparameter tuning for model: AdaBoost
+
+Best parameters: {'learning_rate': np.float64(1.7009102740624293), 'n_estimators': 357}
+
+Hyperparameter tuning for model: Decision Tree
+
+Best parameters: {'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 9}
+
+Hyperparameter tuning for model: Random Forest
+
+Best parameters: {'bootstrap': False, 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 353}
+
+Hyperparameter tuning for model: SVM Linear
+
+Best parameters: {'C': np.float64(9.897248354111614)}
+

@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
 from sklearn.svm import LinearSVC, SVC
@@ -17,13 +18,34 @@ from imblearn.under_sampling import NearMiss
 # List of models to be evaluated
 modelsList = {
     "Logistic Regression": LogisticRegression(class_weight="balanced", solver="saga", max_iter=5000),
-    "Decision Tree": DecisionTreeClassifier(class_weight="balanced"),
-    "Random Forest": RandomForestClassifier(class_weight="balanced"),
-    "SVM Linear": LinearSVC(class_weight="balanced"),
-    # "SVM RBF": SVC(kernel="rbf", class_weight="balanced"),
-    "KNN": KNeighborsClassifier(),
+    "Decision Tree": DecisionTreeClassifier(
+        class_weight="balanced",
+        max_depth=None,
+        min_samples_leaf=4,
+        min_samples_split=9
+    ),
+    "Random Forest": RandomForestClassifier(
+        class_weight="balanced",
+        bootstrap=False,
+        max_depth=None,
+        min_samples_leaf=1,
+        min_samples_split=5,
+        n_estimators=353
+    ),
+    "SVM Linear": LinearSVC(
+        class_weight="balanced",
+        C=np.float64(9.897248354111614)
+    ),
+    "KNN": KNeighborsClassifier(
+        n_neighbors=9,
+        p=1,                 
+        weights="distance"
+    ),
     "Naive Bayes": GaussianNB(),
-    "AdaBoost": AdaBoostClassifier()
+    "AdaBoost": AdaBoostClassifier(
+        n_estimators=357,
+        learning_rate=np.float64(1.7009102740624293)
+    )
 }
 
 # Reading the dataset and splitting it into training and testing dataset

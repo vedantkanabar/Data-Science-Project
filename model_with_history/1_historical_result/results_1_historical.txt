@@ -1,0 +1,99 @@
+Evaluation Result for model: Random Forest
+
+Accuracy:  98.99467%
+Precision: 39.59445%
+Recall:    98.86742%
+F1 Score:  56.54410%
+
+True Positive:  98.86742%
+True Negative:  99.12192%
+False Positive: 0.87808%
+False Negative: 1.13258%
+
+              precision    recall  f1-score   support
+
+           0    0.99993   0.99122   0.99556    257834
+           1    0.39594   0.98867   0.56544      1501
+
+    accuracy                        0.99120    259335
+   macro avg    0.69794   0.98995   0.78050    259335
+weighted avg    0.99644   0.99120   0.99307    259335
+
+Permutation Importance (Top 10 Features):
+merchant: 0.031316
+merch_lat_minus_1: 0.024975
+trans_count_24h: 0.007309
+unix_time: 0.000167
+merch_lat: 0.000149
+merch_long: 0.000110
+trans_date_trans_time: 0.000077
+city: 0.000062
+city_pop: 0.000052
+unix_time_minus_1: 0.000036
+
+Evaluation Result for model: AdaBoost
+
+Accuracy:  98.70422%
+Precision: 29.23320%
+Recall:    98.80080%
+F1 Score:  45.11713%
+
+True Positive:  98.80080%
+True Negative:  98.60763%
+False Positive: 1.39237%
+False Negative: 1.19920%
+
+              precision    recall  f1-score   support
+
+           0    0.99993   0.98608   0.99295    257834
+           1    0.29233   0.98801   0.45117      1501
+
+    accuracy                        0.98609    259335
+   macro avg    0.64613   0.98704   0.72206    259335
+weighted avg    0.99583   0.98609   0.98982    259335
+
+Permutation Importance (Top 10 Features):
+merchant: 0.034434
+merch_lat_minus_1: 0.029620
+trans_count_24h: 0.007332
+long: 0.005442
+job: 0.002041
+city_pop: 0.001518
+unix_time: 0.000956
+amt: 0.000885
+category: 0.000635
+merch_long: 0.000544
+
+Evaluation Result for model: Decision Tree
+
+Accuracy:  99.17471%
+Precision: 37.00670%
+Recall:    99.33378%
+F1 Score:  53.92405%
+
+True Positive:  99.33378%
+True Negative:  99.01565%
+False Positive: 0.98435%
+False Negative: 0.66622%
+
+              precision    recall  f1-score   support
+
+           0    0.99996   0.99016   0.99503    257834
+           1    0.37007   0.99334   0.53924      1501
+
+    accuracy                        0.99017    259335
+   macro avg    0.68501   0.99175   0.76714    259335
+weighted avg    0.99632   0.99017   0.99240    259335
+
+Permutation Importance (Top 10 Features):
+merchant: 0.054290
+merch_lat_minus_1: 0.051705
+trans_count_24h: 0.007272
+merch_long: 0.001390
+city: 0.000211
+category_minus_1: 0.000086
+merchant_minus_1: 0.000086
+job: 0.000069
+trans_date_trans_time: 0.000000
+category: 0.000000
+

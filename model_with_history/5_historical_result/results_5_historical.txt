@@ -1,0 +1,99 @@
+Evaluation Result for model: Random Forest
+
+Accuracy:  98.17538%
+Precision: 36.53413%
+Recall:    97.33511%
+F1 Score:  53.12727%
+
+True Positive:  97.33511%
+True Negative:  99.01565%
+False Positive: 0.98435%
+False Negative: 2.66489%
+
+              precision    recall  f1-score   support
+
+           0    0.99984   0.99016   0.99498    257834
+           1    0.36534   0.97335   0.53127      1501
+
+    accuracy                        0.99006    259335
+   macro avg    0.68259   0.98175   0.76312    259335
+weighted avg    0.99617   0.99006   0.99229    259335
+
+Permutation Importance (Top 10 Features):
+merchant: 0.012278
+is_fraud_minus_2: 0.008230
+amt_minus_5: 0.005704
+lat: 0.000042
+category: 0.000029
+is_fraud_minus_4: 0.000018
+trans_time_minus_4: 0.000018
+amt: 0.000016
+trans_count_24h: 0.000015
+is_fraud_minus_3: 0.000012
+
+Evaluation Result for model: AdaBoost
+
+Accuracy:  98.51387%
+Precision: 25.94150%
+Recall:    98.66755%
+F1 Score:  41.08183%
+
+True Positive:  98.66755%
+True Negative:  98.36019%
+False Positive: 1.63981%
+False Negative: 1.33245%
+
+              precision    recall  f1-score   support
+
+           0    0.99992   0.98360   0.99169    257834
+           1    0.25941   0.98668   0.41082      1501
+
+    accuracy                        0.98362    259335
+   macro avg    0.62967   0.98514   0.70126    259335
+weighted avg    0.99564   0.98362   0.98833    259335
+
+Permutation Importance (Top 10 Features):
+merchant: 0.035374
+is_fraud_minus_2: 0.029800
+amt_minus_5: 0.005924
+category_minus_4: 0.002870
+merch_lat: 0.002475
+unix_time: 0.001588
+category_minus_3: 0.001470
+job: 0.001190
+trans_date_trans_time: 0.000912
+merchant_minus_3: 0.000906
+
+Evaluation Result for model: Decision Tree
+
+Accuracy:  99.11221%
+Precision: 38.82077%
+Recall:    99.13391%
+F1 Score:  55.79303%
+
+True Positive:  99.13391%
+True Negative:  99.09050%
+False Positive: 0.90950%
+False Negative: 0.86609%
+
+              precision    recall  f1-score   support
+
+           0    0.99995   0.99091   0.99541    257834
+           1    0.38821   0.99134   0.55793      1501
+
+    accuracy                        0.99091    259335
+   macro avg    0.69408   0.99112   0.77667    259335
+weighted avg    0.99641   0.99091   0.99287    259335
+
+Permutation Importance (Top 10 Features):
+merchant: 0.054194
+is_fraud_minus_2: 0.051658
+category_minus_4: 0.020948
+amt_minus_5: 0.007299
+category_minus_5: 0.001390
+city: 0.000296
+is_fraud_minus_1: 0.000086
+merchant_minus_2: 0.000007
+trans_date_trans_time: 0.000000
+category: 0.000000
+

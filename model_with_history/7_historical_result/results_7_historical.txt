@@ -1,0 +1,99 @@
+Evaluation Result for model: Random Forest
+
+Accuracy:  98.03996%
+Precision: 34.88873%
+Recall:    97.13524%
+F1 Score:  51.33803%
+
+True Positive:  97.13524%
+True Negative:  98.94467%
+False Positive: 1.05533%
+False Negative: 2.86476%
+
+              precision    recall  f1-score   support
+
+           0    0.99983   0.98945   0.99461    257834
+           1    0.34889   0.97135   0.51338      1501
+
+    accuracy                        0.98934    259335
+   macro avg    0.67436   0.98040   0.75400    259335
+weighted avg    0.99606   0.98934   0.99183    259335
+
+Permutation Importance (Top 10 Features):
+merchant: 0.010750
+is_fraud_minus_4: 0.006696
+amt_minus_5: 0.005667
+unix_time_minus_1: 0.000808
+merch_lat_minus_2: 0.000068
+merch_long_minus_3: 0.000068
+merch_long_minus_4: 0.000066
+merch_long_minus_7: 0.000058
+merchant_minus_7: 0.000027
+trans_time_minus_6: 0.000025
+
+Evaluation Result for model: AdaBoost
+
+Accuracy:  98.34014%
+Precision: 25.70981%
+Recall:    98.33444%
+F1 Score:  40.76222%
+
+True Positive:  98.33444%
+True Negative:  98.34583%
+False Positive: 1.65417%
+False Negative: 1.66556%
+
+              precision    recall  f1-score   support
+
+           0    0.99990   0.98346   0.99161    257834
+           1    0.25710   0.98334   0.40762      1501
+
+    accuracy                        0.98346    259335
+   macro avg    0.62850   0.98340   0.69962    259335
+weighted avg    0.99560   0.98346   0.98823    259335
+
+Permutation Importance (Top 10 Features):
+merchant: 0.035438
+is_fraud_minus_4: 0.029727
+amt_minus_5: 0.005831
+merchant_minus_5: 0.002335
+long: 0.001582
+category_minus_5: 0.001262
+merchant_minus_7: 0.001240
+unix_time: 0.000993
+is_fraud_minus_1: 0.000915
+job: 0.000908
+
+Evaluation Result for model: Decision Tree
+
+Accuracy:  99.07413%
+Precision: 42.29564%
+Recall:    98.93404%
+F1 Score:  59.25778%
+
+True Positive:  98.93404%
+True Negative:  99.21422%
+False Positive: 0.78578%
+False Negative: 1.06596%
+
+              precision    recall  f1-score   support
+
+           0    0.99994   0.99214   0.99602    257834
+           1    0.42296   0.98934   0.59258      1501
+
+    accuracy                        0.99213    259335
+   macro avg    0.71145   0.99074   0.79430    259335
+weighted avg    0.99660   0.99213   0.99369    259335
+
+Permutation Importance (Top 10 Features):
+merchant: 0.051442
+is_fraud_minus_4: 0.048780
+amt_minus_5: 0.007392
+is_fraud_minus_1: 0.004646
+category_minus_2: 0.004464
+is_fraud_minus_2: 0.001273
+city: 0.000197
+is_fraud_minus_3: 0.000086
+category_minus_5: 0.000072
+trans_time_minus_2: 0.000032
+

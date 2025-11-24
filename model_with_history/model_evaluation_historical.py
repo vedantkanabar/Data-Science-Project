@@ -132,7 +132,7 @@ for index, dataset in datasetList.items():
             disp.plot(cmap='Blues', values_format=".5%")
             disp.ax_.set_xlabel("Predicted Class")
             disp.ax_.set_ylabel("Actual Class")
-            plt.title(f"Normalized Confusion Matrix for {model_title} with {index} Historical Features")
+            plt.title(f"Confusion Matrix for {model_title}\n({index} Historical Transactions)") 
             plt.savefig(f"{folder}/Confusion Matrix - {model_title} - {index} Historical Features.png")
             plt.clf()
             plt.close()

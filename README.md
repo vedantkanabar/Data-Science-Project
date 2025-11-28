@@ -1,10 +1,14 @@
 # Data-Science-Project
 
+**NOTE:** 
+- To run the python code, its better to use a pyhton virtual environment with the requirements from `requirements.txt`.
+- Each folder also has its own readme file explaining the files present in there.
+
 ## Flow of Programs
 
 ### Cleaning Up the 2 Datasets:
--  `choudry_dataset_cleanup.py`
--  `shenoy_dataset_cleanup.py`
+-  `choudhry_dataset/choudhry_dataset_cleanup.py`
+-  `shenoy_dataset/shenoy_dataset_cleanup.py`
 
 Both of the files above will cleanup the 2 datasets that we have. It will perform cleanup such as making sure the columns on both datasets have the same structure and removing any unnecessary substrings.
 

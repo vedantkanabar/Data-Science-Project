@@ -137,11 +137,13 @@ if __name__ == "__main__":
         Features, Is_Fraud, test_size=0.2, random_state=27, stratify=Is_Fraud
     )
 
+    # Normalize the data
     imputer = SimpleImputer(strategy="median")
 
     Features_train = pd.DataFrame(imputer.fit_transform(Features_train), columns=feature_names)
     Features_test = pd.DataFrame(imputer.transform(Features_test), columns=feature_names)
 
+    # NearMiss-2 cannot be run due to technological limitations
     resampling_methods = [
         "Random Sample",
         "Random OverSample",
@@ -167,6 +169,7 @@ if __name__ == "__main__":
         categorical_cols = ['merchant', 'category', 'city', 'state', 'job', 'gender']
         numerical_cols = [col for col in Features_train.columns if col not in categorical_cols]
 
+        # process based on column type
         preprocessor = ColumnTransformer(
             transformers=[
                 ('num', StandardScaler(), numerical_cols),

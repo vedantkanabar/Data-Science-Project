@@ -1,8 +1,17 @@
 # Data-Science-Project
 
 **NOTE:** 
+- See `Data Science Report.pdf` for final report
 - To run the python code, its better to use a pyhton virtual environment with the requirements from `requirements.txt`.
 - Each folder also has its own readme file explaining the files present in there.
+
+## Students
+
+- Gariel Mahwastu
+- Garien Rahadi
+- Simonas Tamkevicius
+- Thomas Martin
+- Vedant Kanabar
 
 ## Flow of Programs
 
